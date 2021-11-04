@@ -1,0 +1,240 @@
+/*
+Theme Name: Travelberg
+Theme URI: https://keonthemes.com/downloads/travelberg/
+Author: Keon Themes
+Author URI: https://keonthemes.com/
+Description: Travelberg is clean Masonry and Gutenberg ready WordPress blog theme with an engaging, vivid, responsive, powerful and beautifully crafted design. Travelberg, for all personal or professional travel blogs, magazine-style blogs and travel websites. This blog theme has a magnificent web design that will intrigue everyone and encourage them to take action on the first visit. Travelberg, a passionate theme for travellers and is extensively customizable powerful and advance blog theme incorporated with awesome features which helps to share your story with the entire world. And of course, all the features like Disable/Enable options, Site Layout Options, Archive Page Options, Single Post Page Options, Pages Options, Post Layout Options, Sidebar Position Options, Unlimited Color Options, Fixed Header, Site Identity Extra Options, Custom Widget, Thin Font Icons, Bootstrap 4, Instagram Section,Translation Ready etc. are so user friendly that you can edit the element at any instance. Travelberg is compatible with WordPress Classic editor and WooCommerce.
+Version: 1.0.2
+Requires PHP: 5.4
+Tested up to: 5.4.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: blogberg
+Text Domain: travelberg
+Tags: blog, portfolio, news, grid-Layout, two-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready
+
+Travelberg WordPress Theme is child theme of Blogberg, Copyright 2019 Keon Themes
+Travelberg is distributed under the terms of the GNU General Public License v3
+*/
+
+/*======================================*/
+/* Background Primary color */
+/*======================================*/
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+}
+
+body figcaption, 
+body input[type=button], 
+body input[type=reset], 
+body input[type=submit], 
+body .button-primary, 
+body .page-numbers.current, 
+body .page-numbers:hover.current, 
+body .page-numbers:focus.current, 
+body .page-numbers:active.current, 
+body.woocommerce ul.products li.product .onsale, 
+body.woocommerce ul.products li.product .button, 
+body.woocommerce ul.products li.product a.added_to_cart, 
+body.woocommerce.single-product .product .onsale, 
+body .wrap-detail-page .post-footer .post-format, 
+body .comments-area .comment-respond .comment-form .submit, 
+body .searchform .search-button, body #go-top span:hover, 
+body #go-top span:focus, body #go-top span:active, 
+body .block-slider:not(.block-slider-two):not(.block-slider-three) #slide-pager .owl-dot.active span:hover, 
+body .block-slider:not(.block-slider-two):not(.block-slider-three) #slide-pager .owl-dot.active span:focus, 
+body .block-slider:not(.block-slider-two):not(.block-slider-three) #slide-pager .owl-dot.active span:active, 
+body .block-contact .contact-details-wrap .contact-list-outer .contact-list .icon-area {
+	background-color: #F95759;
+}
+
+/*======================================*/
+/* Primary border color */
+/*======================================*/
+body .button-primary, 
+body .page-numbers.current, 
+body .page-numbers:hover.current, 
+body .page-numbers:focus.current, 
+body .page-numbers:active.current, 
+body .woocommerce ul.products li.product .button, 
+body .woocommerce ul.products li.product a.added_to_cart, 
+body .comments-area .comment-respond .comment-form .submit, 
+body #go-top span:hover, 
+body #go-top span:focus, 
+body #go-top span:active,
+body .post .entry-meta-cat a,
+body .wrap-nav nav.main-navigation ul ul {
+	border-color: #F95759;
+}
+
+/*======================================*/
+/* Primary text color */
+/*======================================*/
+body.woocommerce ul.products li.product .price .amount, 
+body.woocommerce ul.products li.product .price ins .amount, 
+body .inner-header-content .posted-on a, 
+body .post .entry-meta-cat a {
+	color: #F95759;
+}
+
+/*======================================*/
+/* Fonts */
+/*======================================*/
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .wrap-inner-banner .page-header .page-title {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+html, body {
+ 	font-family: 'Ubuntu', sans-serif;
+}
+
+/*======================================*/
+/* general site css*/
+/*======================================*/
+
+/* site header css*/
+
+.site-header .main-header {
+	padding: 30px 0;
+}
+.wrap-fixed-header.site-header .site-branding .site-title{
+	font-size: 20px;
+}
+.site-header-primary .main-navigation-wrap {
+	text-align: center;
+}
+.site-header-primary .header-search-icon {
+	display: inline-block;
+}
+.site-header-primary .header-icons-wrap {
+	display: block;
+}
+.site-header-primary .main-navigation-wrap {
+	border-bottom: none;
+}
+.site-header-primary .main-navigation {
+	border-top: 1px solid #e6e6e6;
+}
+.site-header.site-header-primary .site-branding-outer {
+	padding: 0;
+}
+
+/* site slider css*/
+.block-slider .slide-item {
+	padding-bottom: 10px;
+}
+.block-slider .banner-overlay {
+	background-color: transparent !important; 
+	display: block;
+	min-height: auto;
+}
+.slider-banner-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 545px;
+	width: 100%;
+}
+.block-slider .slide-inner {
+	position: absolute;
+	bottom: 40px;
+}
+.block-slider .post {
+	background-color: #fff;
+	width: 60%;
+}
+.block-slider .post:before {
+	display: none;
+}
+.block-slider .post .entry-meta-cat {
+	margin-bottom: 30px;
+}
+
+/* site post css*/
+
+.post-section .post .entry-meta-cat,
+.post-section .post .post-content h3 {
+	text-align: left;
+}
+.post-section .post .featured-image > a, 
+.post-section .post .feature-image > a {
+	display: block;
+}
+.post-section .post .post-content {
+	padding: 25px 25px 0;
+    margin: -55px 30px 0 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 99;
+    text-align: left;
+}
+.post-section .post .meta-tag {
+	margin: 0 -55px 0 0;
+	border: none;
+	padding: 0;
+	text-align: left;
+}
+
+/* site footer css*/
+.site-footer:before {
+	background-image: url(assets/images/placeholder/blogberg-footer-shape.png);
+}
+.site-footer .desc-menu-wrap {
+	text-align: center;
+}
+.site-footer .copyright,
+.site-footer .footer-menu-wrap{
+	display: inline-block;
+}
+.site-footer .footer-menu-wrap {
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+.site-footer .footer-menu-wrap ul li:first-child {
+	border-left: 1px solid #999;
+	padding-left: 10px;
+}
+.sidebar .widget .widget-title, .sidebar .widget .widgettitle {
+	border-left: 4px solid #e1e1e1;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	padding: 4px 20px;
+	text-align: left;
+}
+
+#offcanvas-menu .sidebar {
+    margin-top: 50px;
+}
+
+/*responsive devices or media query
+----------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+  	.site-header .main-header {
+		padding: 15px 0;
+	}
+	.site-header.site-header-primary .site-branding-outer {
+		text-align: left;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.slider-banner-img {
+		min-height: 335px;
+	}
+	.block-slider .post {
+		width: 90%;
+	}
+	.block-grid .post {
+		overflow: hidden;
+	}
+  	.post-section .post .post-content {
+  		margin: 0;
+  		padding: 25px 0 0;
+  	}
+}
+/*--------------------------------------------------------------
+   		  !!! KEON THEMES (https://keonthemes.com) !!!
+--------------------------------------------------------------*/

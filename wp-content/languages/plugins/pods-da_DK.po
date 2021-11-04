@@ -1,0 +1,130 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 12:29:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: classes/PodsInit.php:2053 src/Pods/Admin/Config/Pod.php:416
+msgid "Uploaded to this %s"
+msgstr "Uploaded til denne %s"
+
+#: classes/PodsInit.php:2079 src/Pods/Admin/Config/Pod.php:511
+msgid "No %s"
+msgstr "Ingen %s"
+
+#: classes/PodsInit.php:2050 src/Pods/Admin/Config/Pod.php:389
+msgid "%s Archives"
+msgstr "Arkiver for %s"
+
+#: classes/PodsInit.php:2052 src/Pods/Admin/Config/Pod.php:407
+msgid "Insert into %s"
+msgstr "Indsæt ind i %s"
+
+#: classes/PodsInit.php:2049
+msgid "Use as featured image"
+msgstr "Brug som indlæggets thumbnail"
+
+#: classes/PodsInit.php:2047
+msgid "Set featured image"
+msgstr "Vælg udvalgt billede"
+
+#: classes/PodsInit.php:2048
+msgid "Remove featured image"
+msgstr "Fjern udvalgte billede"
+
+#: src/Pods/Admin/Config/Pod.php:883 ui/admin/widgets/field.php:15
+#: ui/admin/widgets/form.php:15 ui/admin/widgets/list.php:17
+#: ui/admin/widgets/single.php:17 ui/admin/widgets/view.php:15
+msgid "Title"
+msgstr "Titel"
+
+#: classes/fields/currency.php:132 components/I18n/I18n.php:752
+#: src/Pods/Admin/Config/Group.php:229 ui/fields/color.php:15
+msgid "Default"
+msgstr "Standard"
+
+#: classes/widgets/PodsWidgetForm.php:38 classes/widgets/PodsWidgetForm.php:59
+#: classes/widgets/PodsWidgetForm.php:74
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:47
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:145
+msgid "Submit"
+msgstr "Send"
+
+#: classes/fields/pick.php:612 components/Roles/Roles.php:94
+#: ui/admin/setup-add.php:403
+msgid "Users"
+msgstr "Brugere"
+
+#: classes/fields/boolean.php:53 classes/fields/boolean.php:224
+#: classes/fields/boolean.php:247 classes/PodsAdmin.php:2854
+#: classes/PodsAdmin.php:2858 classes/PodsAdmin.php:2866
+#: classes/PodsAdmin.php:2870 classes/PodsAdmin.php:2874
+#: classes/PodsAdmin.php:2878 classes/PodsAdmin.php:2882
+#: classes/PodsAdmin.php:2886 classes/PodsAdmin.php:2890
+#: classes/PodsAdmin.php:2894 classes/PodsAdmin.php:2898
+#: classes/PodsAdmin.php:2910 classes/PodsAdmin.php:2918
+#: classes/PodsAdmin.php:2922 classes/PodsAdmin.php:2926
+#: classes/PodsAdmin.php:2930 classes/PodsAdmin.php:2934
+#: classes/PodsAdmin.php:2938 classes/PodsAdmin.php:2942
+#: classes/PodsAdmin.php:2946 classes/PodsAdmin.php:2954
+#: classes/PodsUI.php:2898 classes/PodsUI.php:3327 classes/PodsUI.php:3578
+#: src/Pods/Whatsit/Block_Field.php:251
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/fields/boolean.php:58 classes/fields/boolean.php:225
+#: classes/fields/boolean.php:248 classes/PodsAdmin.php:2854
+#: classes/PodsAdmin.php:2858 classes/PodsAdmin.php:2866
+#: classes/PodsAdmin.php:2870 classes/PodsAdmin.php:2874
+#: classes/PodsAdmin.php:2878 classes/PodsAdmin.php:2882
+#: classes/PodsAdmin.php:2886 classes/PodsAdmin.php:2890
+#: classes/PodsAdmin.php:2894 classes/PodsAdmin.php:2898
+#: classes/PodsAdmin.php:2910 classes/PodsAdmin.php:2918
+#: classes/PodsAdmin.php:2922 classes/PodsAdmin.php:2926
+#: classes/PodsAdmin.php:2930 classes/PodsAdmin.php:2934
+#: classes/PodsAdmin.php:2938 classes/PodsAdmin.php:2942
+#: classes/PodsAdmin.php:2946 classes/PodsAdmin.php:2954
+#: classes/PodsUI.php:2899 classes/PodsUI.php:3328 classes/PodsUI.php:3579
+#: src/Pods/Whatsit/Block_Field.php:255
+msgid "No"
+msgstr "Nej"
+
+#: classes/PodsUI.php:3050 tribe-common/src/Tribe/Dialog/View.php:228
+msgid "Cancel"
+msgstr "Annullér"
+
+#: classes/PodsAdmin.php:2032 src/Pods/Admin/Config/Field.php:130
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: classes/PodsInit.php:2040 classes/PodsInit.php:2067
+#: src/Pods/Admin/Config/Pod.php:309
+msgid "All %s"
+msgstr "Alle %s"
+
+#: classes/PodsUI.php:3024 classes/PodsUI.php:4602
+msgid "Apply"
+msgstr "Anvend"
+
+#: classes/Pods.php:4242 classes/PodsAdmin.php:1060 classes/PodsUI.php:4427
+#: src/Pods/Admin/Config/Pod.php:1435 ui/admin/view.php:80
+#: ui/forms/type/post.php:129
+msgid "Delete"
+msgstr "Slet"
+
+#: classes/PodsAdmin.php:904 classes/PodsAdmin.php:2016 classes/PodsUI.php:785
+#: components/Roles/Roles.php:91 components/Roles/ui/add.php:50
+#: src/Pods/Admin/Config/Field.php:119 src/Pods/Admin/Config/Group.php:99
+msgid "Name"
+msgstr "Navn"
+
+#: classes/PodsAdmin.php:538 classes/PodsAdmin.php:2011
+msgid "Components"
+msgstr "Komponenter"

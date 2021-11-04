@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+.wp-block-button.wp-block-button__link:not(.has-background):not(.has-text-color):hover,
+.wp-block-button.wp-block-button__link:not(.has-background):not(.has-text-color):focus,
+.wp-block-button.wp-block-button__link:not(.has-background):not(.has-text-color).has-focus,
+.wp-block-button
+	.wp-block-button__link:not(.has-background):not(.has-text-color):hover,
+.wp-block-button
+	.wp-block-button__link:not(.has-background):not(.has-text-color):focus,
+.wp-block-button
+	.wp-block-button__link:not(.has-background):not(.has-text-color).has-focus {
+	opacity: 0.95;
+}

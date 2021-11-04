@@ -1,0 +1,433 @@
+# Translation of Themes - Responsive in Danish
+# This file is distributed under the same license as the Themes - Responsive package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-26 10:11:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Themes - Responsive\n"
+
+#. Theme Name of the theme
+#: admin/templates/get-started.php:23
+#: core/includes/classes/class-responsive-admin-settings.php:92
+#: core/includes/customizer/settings/class-responsive-customizer-notices.php:77
+msgid "Responsive"
+msgstr "Responsive"
+
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:218
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:173
+msgid "Categories"
+msgstr "Kategorier"
+
+#: partials/single/layout.php:52
+msgid "About"
+msgstr "Om"
+
+#: sidebar-home.php:40
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "Dette er din første widget-boks på forsiden. For at redigere den skal du gå til Udseende > Widgets og vælge den 6. widget fra toppen i område seks kaldet Hjemmewidget 1. Titlen kan også ændres."
+
+#: sidebar-home.php:68
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "Dette er din anden widget-boks på forsiden. For at redigere den skal du gå til Udseende > Widgets og vælge den 7. widget fra toppen i område seks kaldet Hjemmewidget 2. Titlen kan også ændres."
+
+#: sidebar-home.php:94
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "Dette er din trejde widget-boks på forsiden. For at redigere den skal du gå til Udseende > Widgets og vælge den 8. widget fra toppen i område seks kaldet Hjemmewidget 3. Titlen kan også ændres."
+
+#: sidebar-gallery.php:68
+msgid "Camera:"
+msgstr "Kamera:"
+
+#: sidebar-gallery.php:43
+msgid "mm"
+msgstr "mm"
+
+#: sidebar-gallery.php:47
+msgid "ISO:"
+msgstr "ISO:"
+
+#: sidebar-gallery.php:51
+msgid "Shutter:"
+msgstr "Shutter:"
+
+#: sidebar-gallery.php:38
+msgid "Aperture: f&#47;"
+msgstr "Blænde: f&#47;"
+
+#: sidebar-gallery.php:43
+msgid "Focal Length:"
+msgstr "Brændvidde:"
+
+#: sidebar-gallery.php:25
+msgid "Image Information"
+msgstr "Billed information"
+
+#: sidebar-gallery.php:32
+msgid "Full Size:"
+msgstr "Fuld opløsning:"
+
+#: searchform.php:36
+msgid "Search for:"
+msgstr "S&#248;g efter:"
+
+#: loop-no-posts.php:43
+msgid "&larr; Home"
+msgstr "&larr; Hjem"
+
+#. translators: %s search term
+#: loop-no-posts.php:26
+msgid "Your search for %s did not match any entries."
+msgstr "Din søgning efter %s svarede ikke til nogen indtastninger"
+
+#. translators: %s search term
+#: loop-no-posts.php:26
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 &#8212; Har vi ikke set hinanden før ;-)"
+
+#: loop-no-posts.php:32
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "Gå ikke i panik, vi kommer igennem dette sammen. Lad os udforske vores muligheder her."
+
+#. translators: %s: category list
+#. translators: %s posted in categories
+#. translators: %s: category list
+#. translators: %s: category list
+#: core/includes/functions.php:785 image.php:82 partials/entry/meta.php:104
+#: partials/single/meta.php:96
+msgid "Posted in %s"
+msgstr "Udgivet i %s"
+
+#: image.php:79
+msgid "Tagged with:"
+msgstr "Etiket:"
+
+#: image.php:37
+msgid "&#8249; Return to"
+msgstr "&#8249; Retur til"
+
+#: header.php:36
+msgid "&darr; Skip to Main Content"
+msgstr "&darr; Hop til hovedindhold"
+
+#: core/includes/functions.php:95 functions.php:634
+msgid "Call to Action"
+msgstr "Klik her"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:171
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:43
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:44
+#: core/includes/post-custom-meta.php:163
+msgid "Layout"
+msgstr "Layout"
+
+#: core/includes/functions.php:249 partials/footer/footer-menu.php:10
+#: partials/footer/footer-menu.php:11
+msgid "Footer Menu"
+msgstr "Sidefods-menu"
+
+#: core/includes/functions.php:248
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: core/includes/functions-sidebar.php:89
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "Område 10 - sidebar-colophon.php, 100% bredde footer-widgets"
+
+#: core/includes/functions-sidebar.php:76
+msgid "Gallery Sidebar"
+msgstr "Galleri panel"
+
+#: core/includes/functions-sidebar.php:88
+msgid "Colophon Widget"
+msgstr "Kolofon Widget"
+
+#: core/includes/functions-sidebar.php:65
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "Område 8 - sidebar-home.php - Vises på forsiden"
+
+#: core/includes/functions-sidebar.php:77
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "Område 9 - sidebar-gallery.php - Vises på siden efter et billede er blevet klikket på i et galleri"
+
+#: core/includes/functions-sidebar.php:52
+msgid "Home Widget 2"
+msgstr "Hjemme Widget 2"
+
+#: core/includes/functions-sidebar.php:64
+msgid "Home Widget 3"
+msgstr "Hjemme Widget 3"
+
+#: core/includes/functions-sidebar.php:41
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "Område 6 - sidebar-home.php - Vises på forsiden"
+
+#: core/includes/functions-sidebar.php:53
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "Område 7 - sidebar-home.php - Vises på forsiden"
+
+#: core/includes/functions-sidebar.php:40
+msgid "Home Widget 1"
+msgstr "Hjemme Widget 1"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:57
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:62
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:57
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:62
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:52
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:57
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:68
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:73
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:84
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:89
+#: core/includes/page-custom-meta.php:37 core/includes/page-custom-meta.php:43
+msgid "Left Sidebar"
+msgstr "Venstre sidebar"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:56
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:63
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:56
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:63
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:51
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:58
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:67
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:74
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:83
+#: core/includes/customizer/settings/class-responsive-sidebar-layout-customizer.php:90
+#: core/includes/page-custom-meta.php:36 core/includes/page-custom-meta.php:44
+msgid "Right Sidebar"
+msgstr "H&#248;jre sidebar"
+
+#: core/includes/functions-sidebar.php:29
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr "Område 1 - sidebar.php - Vises på siderne Standard, Blog, Bloguddrag"
+
+#: core/includes/functions-sidebar.php:28
+msgid "Main Sidebar"
+msgstr "Primær sidebar"
+
+#: core/includes/functions-extensions.php:373
+msgid "Yelp!"
+msgstr "Yelp!"
+
+#: core/includes/functions-extensions.php:375
+msgid "foursquare"
+msgstr "Foursquare"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:280
+#: core/includes/functions-extensions.php:368
+msgid "YouTube"
+msgstr "Youtube"
+
+#: core/includes/functions-extras.php:205
+msgid "Page %s"
+msgstr "Side %s"
+
+#. translators: %s: view post by
+#. translators: view all posts by author
+#. translators: %s view posts by
+#: core/includes/functions.php:774 partials/entry/meta.php:54
+#: partials/single/meta.php:49
+msgid "View all posts by %s"
+msgstr "Vis alle indlæg af %s"
+
+#. translators: %s is for search query.
+#: loop-header.php:33
+msgid "Search results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: core/includes/starter-content.php:35 loop-no-posts.php:42
+msgid "Home"
+msgstr "Forside"
+
+#: core/includes/customizer/customizer.php:64
+msgid "Custom CSS Styles"
+msgstr "Tilpasset CSS-stil"
+
+#: core/includes/customizer/customizer.php:50
+msgid "CSS Styles"
+msgstr "CSS-styles"
+
+#: core/includes/customizer/settings/class-responsive-footer-scripts-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-header-scripts-customizer.php:39
+msgid "Scripts"
+msgstr "Scripts"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:427
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:385
+#: core/includes/functions-extensions.php:374
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:364
+#: core/includes/functions-extensions.php:369
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:343
+#: core/includes/functions-extensions.php:372
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:322
+#: core/includes/functions-extensions.php:371
+msgid "Instagram"
+msgstr "Instagram"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:301
+#: core/includes/functions-extensions.php:370
+msgid "RSS Feed"
+msgstr "RSS-feed"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:259
+#: core/includes/functions-extensions.php:367
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:238
+#: core/includes/functions-extensions.php:366
+msgid "Facebook"
+msgstr "Facebook"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:217
+#: core/includes/functions-extensions.php:365
+msgid "Twitter"
+msgstr "Twitter"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:320
+msgid "Paste your shortcode, video or image source"
+msgstr "Indsæt din shortcode, video eller billede kilde"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:186
+msgid "Content Area"
+msgstr "Indholdsområdet"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:316
+msgid "Featured Content"
+msgstr "Udvalgt indhold"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:178
+#: core/includes/functions.php:94 functions.php:631
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "Din titel, undertitel og indholdet er redigerbar fra Temafunktioner. Billedet i den højre side kan være et billede eller endda en YouTube-video, hvis du ønsker."
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:167
+msgid "Subheadline"
+msgstr "Undertitel"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:224
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:421
+msgid "Call to Action (URL)"
+msgstr "Klik her (URL)"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:244
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:401
+msgid "Call to Action (Text)"
+msgstr "'Klik her' (Tekst)"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:148
+msgid "Headline"
+msgstr "Titel"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:89
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:103
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:118
+msgid "Enable Custom Front Page"
+msgstr "Aktivér brugerdefineret forside"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:205
+msgid "Disable Call to Action Button?"
+msgstr "Deaktiver 'Klik her'-knap"
+
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:58
+msgid "Disable breadcrumb list?"
+msgstr "Slå hierarkisk liste fra?"
+
+#: admin/class-responsive-plugin-install-helper.php:94
+#: admin/class-responsive-plugin-install-helper.php:114
+msgid "Activate"
+msgstr "Aktiver"
+
+#: core/includes/post-custom-meta.php:138
+msgid "Sidebar/Content"
+msgstr "Sidebar/Indhold"
+
+#. Template Name of the theme
+#: core/includes/post-custom-meta.php:139
+msgid "Full Width Page (no sidebar)"
+msgstr "Fuld sidebrede (ingen sidebar)"
+
+#: core/includes/post-custom-meta.php:137
+msgid "Content/Sidebar"
+msgstr "Indhold/Sidebar"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:124
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:71
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:143
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:96
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:98
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:429
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:462
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:468
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:544
+#: core/includes/page-custom-meta.php:35 core/includes/page-custom-meta.php:42
+#: core/includes/page-custom-meta.php:73 core/includes/page-custom-meta.php:102
+#: core/includes/post-custom-meta.php:136
+msgid "Default"
+msgstr "Standard"
+
+#: comments.php:112
+msgid "Website"
+msgstr "Websted"
+
+#: comments.php:110
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comments.php:108
+msgid "Name"
+msgstr "Navn"
+
+#: comments.php:89
+msgid "Pings&#47;Trackbacks"
+msgstr "Pings&#47;Trackbacks"
+
+#: comments.php:64 comments.php:77
+msgid "Newer comments &#8250;"
+msgstr "nyere kommentar &#8250;"
+
+#: comments.php:62 comments.php:75
+msgid "&#8249; Older comments"
+msgstr "&#8249; ældre kommentar "
+
+#: loop-nav.php:29
+msgid "Newer posts &#8250;"
+msgstr "Nyere artikler &#8250;"
+
+#: core/includes/functions-extras.php:133 gutenberg-fullwidth.php:46
+#: image.php:59 partials/page/content.php:15
+msgid "Read more &#8250;"
+msgstr "Læs mere &#8250;"
+
+#: comments.php:31
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dette indlæg er beskyttet med kodeord. Skriv kodeordet for at se eventuelle kommentarer."
+
+#: loop-nav.php:28
+msgid "&#8249; Older posts"
+msgstr "&#8249; Ældre artikler"
+
+#: gutenberg-fullwidth.php:49 image.php:63 partials/entry/layout.php:56
+#: partials/page/layout.php:45 partials/single/content.php:38
+#: partials/single/layout.php:61
+msgid "Pages:"
+msgstr "Sider:"

@@ -1,0 +1,48 @@
+== Changelog ==
+
+= 1.1.2 =
+* Made WP 5.6 compatible.
+
+= 1.1.1 =
+* Set fallback for previous version of WordPress.
+
+= 1.1.0 =
+* Breadcrumb file updated to fix Google search console warnings.
+* One click demo import plugin recommended.
+* Style updated.
+
+= 1.0.9 = 
+* Page title banner disable/enable option added.
+* Accessibility updated.
+* Style updated.
+
+= 1.0.8 =
+* Added sticky sidebar.
+* Added header widget area.
+* Style fixed.
+
+= 1.0.7 = 
+* Added disable/enable option for footer background shape.
+* Added license and copyright information in readme and style files.
+
+= 1.0.6 = 
+* Menu accessibility issue fixed.
+
+= 1.0.5 = 
+* Fixed theme information naming.
+
+= 1.0.4 = 
+* Added theme information.
+
+= 1.0.3 =
+* Added support for wp_body_open action.
+* Making Accessibility Ready ( Skip to link ).
+
+= 1.0.2 =
+* Fixed posts repeat issue on archive page, when use pagination.
+
+= 1.0.1 =
+* Style fixed.
+
+= 1.0.0 =
+* Initial release.

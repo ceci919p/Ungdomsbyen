@@ -1,0 +1,365 @@
+# Copyright (C) 2021 ona
+# This file is distributed under the same license as the ona package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ona\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: DeoThemes <hello@deothemes.com>\n"
+"Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
+"Report-Msgid-Bugs-To: https://deothemes/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin/theme-admin.php:19
+msgid "Ona Getting Started"
+msgstr ""
+
+#: inc/admin/theme-admin.php:20, inc/admin/theme-admin.php:266
+msgid "Ona"
+msgstr ""
+
+#: inc/admin/theme-admin.php:56
+msgid "Header / Footer Builder"
+msgstr ""
+
+#: inc/admin/theme-admin.php:63, inc/admin/theme-admin.php:76, inc/admin/theme-admin.php:89, inc/admin/theme-admin.php:102, inc/admin/theme-admin.php:115
+msgid "Learn More &#187;"
+msgstr ""
+
+#: inc/admin/theme-admin.php:69
+msgid "Product Builder"
+msgstr ""
+
+#: inc/admin/theme-admin.php:82
+msgid "Mega Menu Builder"
+msgstr ""
+
+#: inc/admin/theme-admin.php:95
+msgid "Page Layout"
+msgstr ""
+
+#: inc/admin/theme-admin.php:108
+msgid "GDPR Tools"
+msgstr ""
+
+#: inc/admin/theme-admin.php:124
+msgid "Home Pages"
+msgstr ""
+
+#: inc/admin/theme-admin.php:126, inc/admin/theme-admin.php:132
+msgid "1"
+msgstr ""
+
+#: inc/admin/theme-admin.php:127, inc/admin/theme-admin.php:133
+msgid "6"
+msgstr ""
+
+#: inc/admin/theme-admin.php:130
+msgid "Headers and Footers"
+msgstr ""
+
+#: inc/admin/theme-admin.php:136
+msgid "RTL and Translation Ready"
+msgstr ""
+
+#: inc/admin/theme-admin.php:142
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/admin/theme-admin.php:148
+msgid "Priority email support"
+msgstr ""
+
+#: inc/admin/theme-admin.php:154
+msgid "Header / footer / product builder"
+msgstr ""
+
+#: inc/admin/theme-admin.php:160
+msgid "Elementor widgets"
+msgstr ""
+
+#: inc/admin/theme-admin.php:162
+msgid "Basic"
+msgstr ""
+
+#: inc/admin/theme-admin.php:163
+msgid "45+ premium widgets"
+msgstr ""
+
+#: inc/admin/theme-admin.php:166
+msgid "Customizable mega menu"
+msgstr ""
+
+#: inc/admin/theme-admin.php:172
+msgid "GDPR tools"
+msgstr ""
+
+#: inc/admin/theme-admin.php:178
+msgid "ACF Pro integrated"
+msgstr ""
+
+#: inc/admin/theme-admin.php:184
+msgid "Slider Revolution"
+msgstr ""
+
+#: inc/admin/theme-admin.php:187
+msgid "Included (save $85)"
+msgstr ""
+
+#: inc/admin/theme-admin.php:190
+msgid "Currency and language switcher"
+msgstr ""
+
+#: inc/admin/theme-admin.php:196
+msgid "Off-canvas mini cart"
+msgstr ""
+
+#: inc/admin/theme-admin.php:202
+msgid "Distraction free checkout"
+msgstr ""
+
+#: inc/admin/theme-admin.php:208
+msgid "Dynamic portfolio"
+msgstr ""
+
+#: inc/admin/theme-admin.php:214
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/theme-admin.php:216
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/admin/theme-admin.php:217
+msgid "Google Fonts + Adobe Fonts"
+msgstr ""
+
+#: inc/admin/theme-admin.php:220
+msgid "Colors"
+msgstr ""
+
+#: inc/admin/theme-admin.php:222
+msgid "Limited"
+msgstr ""
+
+#: inc/admin/theme-admin.php:223
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/theme-admin.php:229
+msgid "Home Main"
+msgstr ""
+
+#: inc/admin/theme-admin.php:234
+msgid "Creative Agency"
+msgstr ""
+
+#: inc/admin/theme-admin.php:239
+msgid "Studio Dark"
+msgstr ""
+
+#: inc/admin/theme-admin.php:244
+msgid "Online Store"
+msgstr ""
+
+#: inc/admin/theme-admin.php:249
+msgid "Interior Slider"
+msgstr ""
+
+#: inc/admin/theme-admin.php:254
+msgid "Portfolio Masonry"
+msgstr ""
+
+#: inc/admin/theme-admin.php:272
+msgid "Made by "
+msgstr ""
+
+#: inc/admin/theme-admin.php:273
+msgid "DeoThemes"
+msgstr ""
+
+#: inc/admin/theme-admin.php:285
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/theme-admin.php:287
+msgid "Ona is now installed and ready to use. Get ready to build something beautiful. To get started check the links below. We hope you enjoy it! If you have any suggestion of how to improve this theme feel free to contact us."
+msgstr ""
+
+#: inc/admin/theme-admin.php:290
+msgid "Useful Links"
+msgstr ""
+
+#: inc/admin/theme-admin.php:293
+msgid "Rate us ★★★★★"
+msgstr ""
+
+#: inc/admin/theme-admin.php:296
+msgid "Contact us"
+msgstr ""
+
+#: inc/admin/theme-admin.php:299
+msgid "Follow us"
+msgstr ""
+
+#: inc/block-patterns.php:13
+msgid "Ona General"
+msgstr ""
+
+#: inc/block-patterns.php:17
+msgid "Ona Footers"
+msgstr ""
+
+#: inc/block-patterns.php:21
+msgid "Ona Headers"
+msgstr ""
+
+#: inc/block-patterns.php:25
+msgid "Ona Pages"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:42
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/patterns/footer-default.php:44
+msgid "Terms \u0026amp; Conditions"
+msgstr ""
+
+#: inc/patterns/general-hero-cover.php:6
+msgid "Hero Cover"
+msgstr ""
+
+#: inc/patterns/general-hero-cover.php:12
+msgid "Hello, I'm Ona. And this is my personal travel journal"
+msgstr ""
+
+#: inc/patterns/general-page-title-with-image.php:6
+msgid "Page title with image"
+msgstr ""
+
+#: inc/patterns/general-page-title-with-image.php:23, inc/patterns/page-about.php:24
+msgid "I am a lifestyle and fashion blogger, a person who enjoys travel."
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:6
+msgid "Promo Boxes"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:19
+msgid "FASHION"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:33
+msgid "LIFESTYLE"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:47
+msgid "TRAVEL"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:61
+msgid "STORIES"
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:6
+msgid "Promo section"
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:14
+msgid "My Travel Gear"
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:18
+msgid "Some blogs focus more on fashion advice, featuring how-to articles for the lay reader."
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:22, inc/patterns/page-about.php:61
+msgid "Some blogs focus more on fashion advice, featuring how-to articles for the lay reader. Articles discuss clothing fit, the matching and complementing of colors, and other information on clothes wearing and care along with prescriptive advice."
+msgstr ""
+
+#: inc/patterns/general-recent-posts.php:6
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/patterns/general-recent-posts.php:15
+msgid "LATEST NEWS"
+msgstr ""
+
+#: inc/patterns/header-centered-logo.php:6
+msgid "Header centered logo"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Header default"
+msgstr ""
+
+#: inc/patterns/page-about.php:6
+msgid "Page about"
+msgstr ""
+
+#: inc/patterns/page-about.php:40
+msgid "“To us, a healthy woman is confident in her own skin, flaws and all.”"
+msgstr ""
+
+#: inc/patterns/page-about.php:57
+msgid "I Love working with people who find joy in the little things"
+msgstr ""
+
+#: inc/patterns/page-about.php:85
+msgid "99"
+msgstr ""
+
+#: inc/patterns/page-about.php:89
+msgid "Houses sold in 2021 for my clients"
+msgstr ""
+
+#: inc/patterns/page-about.php:97
+msgid "1,500+"
+msgstr ""
+
+#: inc/patterns/page-about.php:101
+msgid "Cups of coffee drank in courtrooms in 2021"
+msgstr ""
+
+#: inc/patterns/page-about.php:109
+msgid "700K"
+msgstr ""
+
+#: inc/patterns/page-about.php:113
+msgid "Profits gained for my clients and money"
+msgstr ""
+
+#: inc/patterns/page-contact.php:6
+msgid "Page contact"
+msgstr ""
+
+#: inc/patterns/page-contact.php:18
+msgid "Feel free to contact me anytime."
+msgstr ""
+
+#: inc/patterns/page-contact.php:26
+msgid "Melbourne's GPO 350 Bourke St Melbourne VIC 3000 Australia"
+msgstr ""
+
+#: inc/patterns/page-contact.php:30
+msgid "Phone: +1-888-1554-456-123"
+msgstr ""
+
+#: inc/patterns/page-contact.php:34
+msgid "Email: "
+msgstr ""
+
+#: index.php:9
+msgid "This theme was built for the WordPress experimental full site editing feature. You need to install and activate the Gutenberg plugin to make it work. "
+msgstr ""
