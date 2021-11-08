@@ -120,8 +120,8 @@ get_header();
                 klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
                 klon.querySelector(".fag").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
-				 klon.querySelector(".kortbeskrivelse").textContent =
-              	kursus.kort_beskriv;
+				klon.querySelector(".kortbeskrivelse").textContent =
+              		kursus.kort_beskriv;
 				klon.querySelector("article").addEventListener("click", () => {
 					location.href = kursus.link; })
 				// kurser.malgrupper.forEach(malgruppe => {
