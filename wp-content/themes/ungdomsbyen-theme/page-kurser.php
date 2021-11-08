@@ -47,7 +47,7 @@ get_header();
 		console.log("Hip Hurra");
 
 		let kurser;
-		let alleNiveauer;
+		let niveauer;
 		let temaer;
 		let malgrupper;
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
@@ -69,7 +69,7 @@ get_header();
 			const data = await fetch(url);
 			const niveauData = await fetch(niveauUrl);
 			kurser = await data.json();
-			alleNiveauer = await niveauData.json();
+			niveauer = await niveauData.json();
 			
 			const temaData = await fetch(temaUrl);
 			temaer = await temaData.json();
@@ -83,7 +83,7 @@ get_header();
 		}
 
 		function opretknapper () {
-			alleNiveauer.forEach(niveau =>{
+			niveauer.forEach(niveau =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.name}">${niveau.name}</button>`
 				// OBS oprette en til fag og tema
@@ -125,7 +125,7 @@ get_header();
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
 				console.log(temaer);
-				if ((filterKursus == "alle" || kursus.alleNiveauer.includes(filterKursus) && kursus.temaer.includes(filterKursus))) {
+				if ((filterKursus == "alle" || kursus.niveauer.includes(filterKursus) && kursus.temaer.includes(filterKursus))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
                 klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
