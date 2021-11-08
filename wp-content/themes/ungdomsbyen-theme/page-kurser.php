@@ -74,8 +74,8 @@ get_header();
 			const temaData = await fetch(temaUrl);
 			temaer = await temaData.json();
 
-			console.log(fag);
-			console.log(temaer);
+			console.log("henterData");
+	
 			//kald til funktionen visKurser
 			visKurser();
 			//kald til funktionen opretknapper
