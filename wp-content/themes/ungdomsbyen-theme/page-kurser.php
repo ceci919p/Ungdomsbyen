@@ -47,7 +47,7 @@ get_header();
 		console.log("Hip Hurra");
 
 		let kurser;
-		let categories;
+		let alleFag;
 		let malgrupper;
 		let allefag;
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
@@ -60,16 +60,23 @@ get_header();
 		}
 
 		const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus";
-		const catUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/categories";
+		const fagUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/fag";
+		const temaUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/tema";
+		// hente forskellige categories ind 
 
 		async function getJson() {
 			
 			const data = await fetch(url);
-			const catdata = await fetch(catUrl);
+			const fagData = await fetch(fagUrl);
 			kurser = await data.json();
-			categories = await catdata.json();
+			alleFag = await fagData.json();
+			
+			const temaData = await fetch(temaUrl);
+			kurser = await data.json();
+			temaer = await temaData.json();
 
-			console.log(categories);
+			console.log(fag);
+			console.log(temaer);
 			//kald til funktionen visKurser
 			visKurser();
 			//kald til funktionen opretknapper
@@ -77,10 +84,16 @@ get_header();
 		}
 
 		function opretknapper () {
-			categories.forEach(cat =>{
+			alleFag.forEach(fag =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
-				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${cat.name}">${cat.name}</button>`
-				
+				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${fag.name}">${fag.name}</button>`
+				// OBS oprette en til fag og tema
+				addEventListenersToButtons();
+			})
+			temaer.forEach(tema =>{
+				//lav en funktion der opretter knapper med kategori id som data attribut
+				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${tema.name}">${tema.name}</button>`
+				// OBS oprette en til fag og tema
 				addEventListenersToButtons();
 			})
 		}
@@ -113,8 +126,7 @@ get_header();
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
 				console.log(kursus.categories);
-				if (filterKursus == "alle" || kursus.categories.includes(filterKursus)){
-
+				if ((filterKursus == "alle" || kursus.alleFag.includes(filterKursus)) && kursus.temaer.includes(filterKursus)) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
                 klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
