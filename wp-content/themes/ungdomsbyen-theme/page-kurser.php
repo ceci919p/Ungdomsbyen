@@ -16,9 +16,11 @@ get_header();
 				
 			<h2></h2>
 				<img src="" alt="">
-                <p class="klassetrin"></p>
+				<p class="tema"></p>
                 <p class="fag"></p>
+				 <p class="maalgruppe"></p>
 				<p class="kortbeskrivelse"></p>
+				
 				
 			</article>
 		</template>
@@ -105,7 +107,7 @@ get_header();
 
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-                klon.querySelector(".klassetrin").innerHTML = kursus.klassetrin;
+                klon.querySelector(".maalgruppe").innerHTML = kursus.maalgruppe;
                 klon.querySelector(".fag").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
 				 klon.querySelector(".kortbeskrivelse").textContent =
