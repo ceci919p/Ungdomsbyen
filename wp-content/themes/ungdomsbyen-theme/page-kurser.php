@@ -29,7 +29,13 @@ get_header();
 
 			 <!--filtreringsknap med data attribut-->
 			<nav id="filtrering">
+				<h4>Filtreringsmuligheder</h4>
+				
 				<button data-kursus="alle">Alle</button>
+
+				<!--<h5 class="niveau-overskrift">niveau</h5>-->
+				<!--<h5 class="tema-overskrift">tema</h5>-->
+				
 			</nav>
 
 			<h1 id="overskrift">Kurser</h1>
