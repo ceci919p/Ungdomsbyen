@@ -53,6 +53,7 @@ do_action( 'neve_html_start_before' );
 	 */
 	do_action( 'neve_head_end_before' );
 	?>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/custom.css">
 </head>
 
 <body  <?php body_class(); ?> <?php neve_body_attrs(); ?> >
