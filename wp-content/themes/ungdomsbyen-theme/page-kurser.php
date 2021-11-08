@@ -11,14 +11,14 @@
 
 get_header();
 ?>
-<template>
+        <template>
 			<article>
 				
-			<h2></h2>
+			    <h2></h2>
 				<img src="" alt="">
 				<p class="tema"></p>
                 <p class="fag"></p>
-				 <p class="maalgruppe"></p>
+				 <p class="malgruppe"></p>
 				<p class="kortbeskrivelse"></p>
 				
 				
@@ -27,7 +27,11 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<nav id="filtrering"><button data-kursus="alle">Alle</button></nav>
+
+			 <!--filtreringsknap med data attribut-->
+			<nav id="filtrering">
+				<button data-kursus="alle">Alle</button>
+			</nav>
 
 			<h1 id="overskrift">Kurser</h1>
 			<section id="kursus-oversigt"></section>
@@ -107,7 +111,7 @@ get_header();
 
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-                klon.querySelector(".maalgruppe").innerHTML = kursus.maalgruppe;
+                klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
                 klon.querySelector(".fag").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
 				 klon.querySelector(".kortbeskrivelse").textContent =
