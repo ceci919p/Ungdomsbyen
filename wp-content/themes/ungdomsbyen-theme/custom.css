@@ -1,3 +1,9 @@
+img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
 main > section {
   grid-column: 2/3;
 }
@@ -32,16 +38,26 @@ main > article {
 
 #kursus-oversigt {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 #kursus-oversigt article {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap; */
   align-content: space-between;
   margin: 0.5rem;
-  padding: 0;
+  padding: 1rem;
   cursor: pointer;
+}
+
+#kursus-oversigt article h2 {
+  font-size: 1.2em;
+
+  padding-block: 1rem;
+}
+
+#kursus-oversigt article p {
+  line-height: 1.2;
 }
 
 body {
@@ -57,7 +73,7 @@ button {
   background-color: white;
   border: 1px solid black;
   color: black;
-  margin-top: 1rem;
+  margin-block: 1rem;
   margin-inline: 0.5rem;
   padding: 5px;
   padding-inline: 1rem;
