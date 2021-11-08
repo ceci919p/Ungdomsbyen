@@ -49,6 +49,7 @@ get_header();
 		let kurser;
 		let niveauer;
 		let temaer;
+		let alleFag;
 		let malgrupper;
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
 		let filterKursus ="alle";
@@ -62,17 +63,26 @@ get_header();
 		const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus";
 		const niveauUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/niveau";
 		const temaUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/tema";
+		const fagUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/fag";
+		const malgruppeUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/malgruppe";
 		// hente forskellige categories ind 
 
 		async function getJson() {
 			
 			const data = await fetch(url);
-			const niveauData = await fetch(niveauUrl);
 			kurser = await data.json();
+			
+			const niveauData = await fetch(niveauUrl);
 			niveauer = await niveauData.json();
 			
 			const temaData = await fetch(temaUrl);
 			temaer = await temaData.json();
+
+			const fagData = await fetch(fagUrl);
+			alleFag = await fagData.json();
+
+			const malgruppeData = await fetch(malgruppeUrl);
+			malgrupper = await malgruppeData.json();
 
 			console.log("henterData");
 	
@@ -86,13 +96,13 @@ get_header();
 			niveauer.forEach(niveau =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.name}">${niveau.name}</button>`
-				// OBS oprette en til fag og tema
+				
 				addEventListenersToButtons();
 			})
 			temaer.forEach(tema =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${tema.name}">${tema.name}</button>`
-				// OBS oprette en til fag og tema
+				
 				addEventListenersToButtons();
 			})
 		}
