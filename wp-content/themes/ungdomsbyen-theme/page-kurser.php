@@ -125,7 +125,7 @@ get_header();
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
 				console.log(kursus.categories);
-				if ((filterKursus == "alle" || kursus.alleFag.includes(filterKursus)) && kursus.temaer.includes(filterKursus)) {
+				if ((filterKursus == "alle" || kursus.alleFag.includes(filterKursus) && kursus.temaer.includes(filterKursus))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
                 klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
