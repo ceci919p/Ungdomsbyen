@@ -14,15 +14,10 @@ get_header();
         <template>
 			<article>
 				
-			    <h2></h2>
 				<img src="" alt="">
-				<p class="tema"></p>
-                <p class="fag">
-					 <ul class="fagliste"></ul>
-				</p>
-				 <p class="malgruppe">
-					 <ul class="malgruppeliste"></ul>
-				 </p>
+				<h2></h2>
+				<p class="malgruppe"></p>
+                <p class="fag"></p>
 				<p class="kortbeskrivelse"></p>
 				
 				
@@ -138,7 +133,7 @@ get_header();
 				if ((filterKursus == "alle" || kursus.temaer.includes(parseInt(filterKursus)) && kursus.niveauer.includes(parseInt(filterKursus)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-                klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
+                klon.querySelector(".malgruppe").innerHTML = kursus.malgruppe;
                 klon.querySelector(".fag").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
