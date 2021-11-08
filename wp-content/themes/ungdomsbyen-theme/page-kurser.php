@@ -117,19 +117,19 @@ get_header();
 
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-                // klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
-                // klon.querySelector(".fag").innerHTML = kursus.fag;
+                klon.querySelector(".malgruppe").textContent = kursus.malgruppe;
+                klon.querySelector(".fag").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
 				 klon.querySelector(".kortbeskrivelse").textContent =
-              kursus.kort_beskriv;
+              	kursus.kort_beskriv;
 				klon.querySelector("article").addEventListener("click", () => {
 					location.href = kursus.link; })
-				malgrupper.forEach(malgruppe => {
-					klon.querySelector("malgruppeliste").innerHTML += "<li>" + malgruppe + "</li>"
-				})	
-				allefag.forEach(fag => {
-					klon.querySelector("fagliste").innerHTML += "<li>" + fag + "</li>"
-				})
+				// kurser.malgrupper.forEach(malgruppe => {
+				// 	klon.querySelector("malgruppeliste").innerHTML += "<li>" + malgruppe + "</li>"
+				// })	
+				// kurser.allefag.forEach(fag => {
+				// 	klon.querySelector("fagliste").innerHTML += "<li>" + fag + "</li>"
+				// })
 				liste.appendChild(klon);
 
 				}
