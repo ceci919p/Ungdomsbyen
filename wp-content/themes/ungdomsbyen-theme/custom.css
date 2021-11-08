@@ -1,6 +1,41 @@
+main > section {
+  grid-column: 2/3;
+}
+
+main > article {
+  grid-column: 2/3;
+}
+
+.page-header {
+  grid-column: 2/3;
+}
+
+#filtrering {
+  grid-column: 2/3;
+}
+
+#overskrift {
+  grid-column: 2/3;
+}
+
+.site-main {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1200px) auto;
+  align-items: center;
+}
+
 #kursus-oversigt {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+#kursus-oversigt article {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 0.5rem;
+  padding: 0;
+  cursor: pointer;
 }
 
 body {
@@ -9,4 +44,11 @@ body {
 
 article {
   background-color: #f9d2da;
+}
+
+button {
+  border-radius: 0;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
 }
