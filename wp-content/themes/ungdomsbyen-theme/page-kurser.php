@@ -48,8 +48,8 @@ get_header();
 
 		let kurser;
 		let alleFag;
+		let temaer;
 		let malgrupper;
-		let allefag;
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
 		let filterKursus ="alle";
 
@@ -72,7 +72,6 @@ get_header();
 			alleFag = await fagData.json();
 			
 			const temaData = await fetch(temaUrl);
-			kurser = await data.json();
 			temaer = await temaData.json();
 
 			console.log(fag);
