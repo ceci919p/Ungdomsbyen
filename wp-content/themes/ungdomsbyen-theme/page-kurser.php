@@ -58,7 +58,7 @@ get_header();
 		let alleFag;
 		let malgrupper;
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
-		let filterKursus ="alle";
+		let filterKursus = "alle";
 		let filterTema = "alle";
 
 		document.addEventListener("DOMContentLoaded", start);
