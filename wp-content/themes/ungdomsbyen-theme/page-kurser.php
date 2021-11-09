@@ -66,7 +66,7 @@ get_header();
 			getJson();
 		}
 
-		const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus";
+		const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus/";
 		const niveauUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/niveau";
 		const temaUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/tema";
 		// hente forskellige categories ind 
@@ -159,8 +159,8 @@ get_header();
 				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterTema)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-				klon.querySelector("h2").innerHTML = kursus.malgruppe;
-				klon.querySelector("h2").innerHTML = kursus.fag;
+				klon.querySelector(".malgruppe").innerHTML = kursus.malgrupper;
+				klon.querySelector(".fag").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
               		kursus.kort_beskriv;
