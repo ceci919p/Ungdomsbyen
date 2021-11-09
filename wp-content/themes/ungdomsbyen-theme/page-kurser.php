@@ -159,6 +159,8 @@ get_header();
 				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterTema)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
+				klon.querySelector("h2").innerHTML = kursus.malgruppe;
+				klon.querySelector("h2").innerHTML = kursus.fag;
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
               		kursus.kort_beskriv;
