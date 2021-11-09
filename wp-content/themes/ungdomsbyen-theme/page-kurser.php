@@ -151,6 +151,7 @@ get_header();
 			})
 			//tilføjer .valgt til den valgte
 			this.classList.add("valgt");
+			console.log(filterTema);
 			visKurser();
 		}
 
