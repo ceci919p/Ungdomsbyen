@@ -131,7 +131,7 @@ get_header();
 			//variablen der holder styr på hvilken kategori der er blevet valgt er let filterKursus.
 			//vi definerer at variblen er den der lige er blevet klikket på med "this". 
 			//når vi vil have fat i data-attribut bruges dataset og efterfølgende hvad data-attributten hedder 
-			filterKursus = this.dataset.niveau;
+			filterKursus = this.dataset.kursus;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#filtrering .filter").forEach(elm => {
 				elm.classList.remove("valgt");
