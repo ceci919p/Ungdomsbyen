@@ -102,7 +102,7 @@ get_header();
 		function opretknapper () {
 			niveauer.forEach(niveau =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
-				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${kursus.name}">${kursus.name}</button>`
+				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.name}">${niveau.name}</button>`
 				
 				addEventListenersToButtons();
 			})
