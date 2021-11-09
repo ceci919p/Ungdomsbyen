@@ -38,6 +38,7 @@ get_header();
 			async function getJson() {
 			const data = await fetch(url);
 			kursus = await data.json();
+			console.log(kursus)
 			visKursus();
 		}
 
