@@ -15,11 +15,11 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-			<article>
+			<article id="single_article">
 				<button class="luk">Tilbage</button>
 				<section class="single_container">
 							<h2></h2>
-							<p></p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui.. </p>
 				<img class="pic" src="" alt="">
 
 				<div class="single_text">
@@ -28,6 +28,44 @@ get_header();
 				<p class="pris"></p>
 			    </div>
 			    </section>
+
+				<section class="single_container2">
+					<div class="info_box">
+				    <h4>Praktiske informationer</h4>
+					<p>Klassetrin</p>
+					<p>Deltagere</p>
+					<p>Varighed</p>
+					<p>Indhold</p>
+					<p>Pris</p>
+				    </div>
+					<div class="text_box">
+					<h3>Test 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui.. </p>
+				    </div>
+
+				</section>
+
+				<section class="single_container3">
+					<div class="text_box3">
+					<h3>Test 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui.. </p>
+                    </div>
+
+				</section>
+
+				<section class="single_container4">
+					<div class="text_box4">
+						<h3>Test 4</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui..</p>
+
+					</div>
+					<div class="kontakt_info">
+						<h3>Har du spørgsmål til kurset?</h3>
+						
+
+					</div>
+
+				</section>
 			</article>
 
 		</main><!-- #main -->
