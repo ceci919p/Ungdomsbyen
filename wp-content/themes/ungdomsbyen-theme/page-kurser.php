@@ -19,7 +19,7 @@ get_header();
 				<p class="malgruppe"></p>
                 <p class="fag"></p>
 				<p class="kortbeskrivelse"></p>
-				<button class="detaljer">Læs mere</button>
+				<button class="detaljer">Læs mere</button>x½
 				
 			</article>
 		</template>
