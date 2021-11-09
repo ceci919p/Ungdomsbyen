@@ -28,7 +28,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<h1 id="overskrift">Kurser</h1>
-			<section id="kursus-oversigt"></section>
+			
 			 <!--filtreringsknap med data attribut-->
 			
 			<nav id="filtrering">
@@ -44,7 +44,7 @@ get_header();
 				<button data-tema="alle">Alle</button>
 			</nav>
 
-			
+			<section id="kursus-oversigt"></section>
 
 		</main><!-- #main -->
 		
