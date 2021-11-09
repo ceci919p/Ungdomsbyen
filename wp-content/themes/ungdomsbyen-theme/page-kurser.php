@@ -70,8 +70,6 @@ get_header();
 		const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus";
 		const niveauUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/niveau";
 		const temaUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/tema";
-		const fagUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/fag";
-		const malgruppeUrl = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/malgruppe";
 		// hente forskellige categories ind 
 
 		async function getJson() {
@@ -84,12 +82,6 @@ get_header();
 			
 			const temaData = await fetch(temaUrl);
 			temaer = await temaData.json();
-
-			const fagData = await fetch(fagUrl);
-			alleFag = await fagData.json();
-
-			const malgruppeData = await fetch(malgruppeUrl);
-			malgrupper = await malgruppeData.json();
 
 			console.log("henterData");
 	
