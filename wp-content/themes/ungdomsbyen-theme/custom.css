@@ -92,3 +92,51 @@ button:hover {
 .valgt {
   background-color: #e8869b;
 }
+
+#single_article {
+  background-color: white;
+}
+
+.single_container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single_container2 .info_box {
+  background-color: lightgrey;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.single_container2 .text_box {
+  background-color: #c3a9d5;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.single_container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single_container3 .text_box3 {
+  grid-column: 1/2;
+  background-color: #c3a9d5;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.single_container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single_container4 .text_box4 {
+  background-color: #c3a9d5;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.kontakt_info {
+  padding: 1rem;
+}
