@@ -33,7 +33,7 @@ get_header();
 		<script>
 			let kursus;
 
-			const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus"+<?php echo get_the_ID() ?>;
+			const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus/"+<?php echo get_the_ID() ?>;
 
 			async function getJson() {
 			const data = await fetch(url);
