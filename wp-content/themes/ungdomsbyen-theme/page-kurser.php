@@ -55,8 +55,7 @@ get_header();
 		let kurser;
 		let niveauer;
 		let temaer;
-		let alleFag;
-		let malgrupper;
+		
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
 		let filterKursus = "alle";
 		let filterTema = "alle";
@@ -160,20 +159,11 @@ get_header();
 				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterTema)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-                klon.querySelector(".malgruppe").innerHTML = kursus.malgruppe.name;
-                klon.querySelector(".fag").innerHTML = kursus.fag.name;
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
               		kursus.kort_beskriv;
 				klon.querySelector(".detaljer").addEventListener("click", () => {
 					location.href = kursus.link; })
-				
-				// kurser.malgrupper.forEach(malgruppe => {
-				// 	klon.querySelector("malgruppeliste").innerHTML += "<li>" + malgruppe + "</li>"
-				// })	
-				// kurser.allefag.forEach(fag => {
-				// 	klon.querySelector("fagliste").innerHTML += "<li>" + fag + "</li>"
-				// })
 				liste.appendChild(klon);
 
 				}
