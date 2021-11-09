@@ -18,6 +18,8 @@ get_header();
 			<article>
 				<button class="luk">Tilbage</button>
 				<section class="single_container">
+							<h2></h2>
+							<p></p>
 				<img class="pic" src="" alt="">
 
 				<div class="single_text">
