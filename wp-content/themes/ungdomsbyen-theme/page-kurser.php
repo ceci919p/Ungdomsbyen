@@ -101,17 +101,20 @@ get_header();
 
 		function opretknapper () {
 			niveauer.forEach(niveau =>{
+				console.log(niveau knap)
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.name}">${niveau.name}</button>`
 				
-				addEventListenersToButtons();
+				
 			})
 			temaer.forEach(tema =>{
+				console.log(tema knap)
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#tema-filtrering").innerHTML += `<button class="filter" data-tema="${tema.name}">${tema.name}</button>`
 				
-				addEventListenersToButtons();
+				
 			})
+			addEventListenersToButtons();
 		}
 
 		function addEventListenersToButtons(){
@@ -128,7 +131,7 @@ get_header();
 			//variablen der holder styr på hvilken kategori der er blevet valgt er let filterKursus.
 			//vi definerer at variblen er den der lige er blevet klikket på med "this". 
 			//når vi vil have fat i data-attribut bruges dataset og efterfølgende hvad data-attributten hedder 
-			filterKursus = this.dataset.kursus;
+			filterKursus = this.dataset.niveau;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#filtrering .filter").forEach(elm => {
 				elm.classList.remove("valgt");
@@ -140,7 +143,7 @@ get_header();
 			visKurser();
 		}
 		function filtreringTema(){
-			filterTema = this.dataset.cont;
+			filterTema = this.dataset.tema;
 			document.querySelector("h1").textContent = this.textContent;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#tema-filtrering .filter").forEach(elm => {
