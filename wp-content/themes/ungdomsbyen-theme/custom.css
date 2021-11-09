@@ -21,6 +21,10 @@ main > article {
   margin-bottom: 4rem;
 }
 
+#tema-filtrering {
+  grid-column: 2/3;
+}
+
 #filtrering h4 {
   margin-top: 2rem;
   margin-bottom: 1rem;
