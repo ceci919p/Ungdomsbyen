@@ -28,6 +28,9 @@ get_header();
 		<main id="main" class="site-main">
 
 			 <!--filtreringsknap med data attribut-->
+			 <nav id="tema-filtrering">
+				<button data-tema="alle">Alle</button>
+			</nav>
 			<nav id="filtrering">
 				<button data-kursus="alle">Alle</button>
 			</nav>
@@ -48,6 +51,7 @@ get_header();
 		let malgrupper;
 		//variabel der holder styr på hvilken kategori der er blevet valgt.
 		let filterKursus ="alle";
+		let filterTema = "alle";
 
 		document.addEventListener("DOMContentLoaded", start);
 
@@ -96,7 +100,7 @@ get_header();
 			})
 			temaer.forEach(tema =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
-				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${tema.name}">${tema.name}</button>`
+				document.querySelector("#tema-filtrering").innerHTML += `<button class="filter" data-tema="${tema.name}">${tema.name}</button>`
 				
 				addEventListenersToButtons();
 			})
@@ -107,19 +111,37 @@ get_header();
 			document.querySelectorAll("#filtrering button").forEach(elm =>{
 				elm.addEventListener("click", filtrering);
 			})
-		};
-
+			document.querySelectorAll("#tema-filtrering button").forEach(elm => {
+				elm.addEventListener("click", filtreringTema)
+			})
+		}
 		//funktion til filtrering
 		function filtrering(){
 			//variablen der holder styr på hvilken kategori der er blevet valgt er let filterKursus.
 			//vi definerer at variblen er den der lige er blevet klikket på med "this". 
 			//når vi vil have fat i data-attribut bruges dataset og efterfølgende hvad data-attributten hedder 
 			filterKursus = this.dataset.kursus;
+			//fjerner .valgt fra alle
+			document.querySelectorAll("#filtrering .filter").forEach(elm => {
+				elm.classList.remove("valgt");
+			});
+			//tilføjer .valgt til den valgte 
+			this.classList.add("valgt");
 			console.log(filterKursus);
 
 			visKurser();
 		}
-
+		function filtreringTema(){
+			filterTema = this.dataset.cont;
+			document.querySelector("h1").textContent = this.textContent;
+			//fjerner .valgt fra alle
+			document.querySelectorAll("#tema-filtrering .filter").forEach(elm => {
+				elm.classList.remove("valgt");
+			})
+			//tilføjer .valgt til den valgte
+			this.classList.add("valgt");
+			visKurser();
+		}
 
 		function visKurser () {
 			console.log(kurser);
@@ -130,7 +152,7 @@ get_header();
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
 				console.log(temaer);
-				if ((filterKursus == "alle" || kursus.temaer.includes(parseInt(filterKursus)) && kursus.niveauer.includes(parseInt(filterKursus)))) {
+				if (filterKursus == "alle" || kursus.temaer.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.niveauer.includes(parseInt(filterKursus))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
                 klon.querySelector(".malgruppe").innerHTML = kursus.malgruppe;
