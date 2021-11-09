@@ -101,18 +101,18 @@ get_header();
 
 		function opretknapper () {
 			niveauer.forEach(niveau =>{
-				console.log("niveauknap")
+				
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.id}">${niveau.name}</button>`
 				
-				
+				console.log("niveauknap")
 			})
 			temaer.forEach(tema =>{
-				console.log("temaknap")
+				
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#tema-filtrering").innerHTML += `<button class="filter" data-tema="${tema.id}">${tema.name}</button>`
 				
-				
+				console.log("temaknap")
 			})
 			addEventListenersToButtons();
 		}
@@ -125,6 +125,7 @@ get_header();
 			document.querySelectorAll("#tema-filtrering button").forEach(elm => {
 				elm.addEventListener("click", filtreringTema)
 			})
+			console.log("addEventListenerToButtons")
 		}
 		//funktion til filtrering
 		function filtrering(){
@@ -138,7 +139,7 @@ get_header();
 			});
 			//tilføjer .valgt til den valgte 
 			this.classList.add("valgt");
-			console.log(filterKursus);
+			console.log("filtrering");
 
 			visKurser();
 		}
@@ -151,12 +152,12 @@ get_header();
 			})
 			//tilføjer .valgt til den valgte
 			this.classList.add("valgt");
-			console.log(filterTema);
+			console.log("filtreringTema");
 			visKurser();
 		}
 
 		function visKurser () {
-			console.log(kurser);
+			console.log("visKurser");
 			
 			const liste = document.querySelector("#kursus-oversigt");
 			const skabelon = document.querySelector("template");
@@ -167,8 +168,8 @@ get_header();
 				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterKursus)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
-                klon.querySelector(".malgruppe").innerHTML = kursus.malgruppe;
-                klon.querySelector(".fag").innerHTML = kursus.fag;
+                klon.querySelector(".malgruppe").innerHTML = kursus.malgruppe.name;
+                klon.querySelector(".fag").innerHTML = kursus.fag.name;
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
               		kursus.kort_beskriv;
