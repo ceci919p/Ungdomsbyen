@@ -102,7 +102,7 @@ get_header();
 		function opretknapper () {
 			niveauer.forEach(niveau =>{
 				//lav en funktion der opretter knapper med kategori id som data attribut
-				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.name}">${niveau.name}</button>`
+				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${kursus.name}">${kursus.name}</button>`
 				
 				addEventListenersToButtons();
 			})
@@ -160,7 +160,7 @@ get_header();
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
 				console.log(temaer);
-				if (filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterKursus))) {
+				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterKursus)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
                 klon.querySelector(".malgruppe").innerHTML = kursus.malgruppe;
