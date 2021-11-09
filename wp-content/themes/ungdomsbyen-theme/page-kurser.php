@@ -8,7 +8,7 @@
  *
  * @package Neve
  */
-
+	
 get_header();
 ?>
         <template>
@@ -29,17 +29,19 @@ get_header();
 		<main id="main" class="site-main">
 
 			 <!--filtreringsknap med data attribut-->
-			 <nav id="tema-filtrering">
-				<button data-tema="alle">Alle</button>
-			</nav>
+			
 			<nav id="filtrering">
-				<h4>Filtreringsmuligheder</h4>
+				<h4>Uddannelsesniveau:</h4>
 				
 				<button data-kursus="alle">Alle</button>
 
 				<!--<h5 class="niveau-overskrift">niveau</h5>-->
 				<!--<h5 class="tema-overskrift">tema</h5>-->
 				
+			</nav>
+			 <nav id="tema-filtrering">
+				 <h4>Tema:</h4>
+				<button data-tema="alle">Alle</button>
 			</nav>
 
 			<h1 id="overskrift">Kurser</h1>
