@@ -103,14 +103,14 @@ get_header();
 			niveauer.forEach(niveau =>{
 				console.log("niveauknap")
 				//lav en funktion der opretter knapper med kategori id som data attribut
-				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.name}">${niveau.name}</button>`
+				document.querySelector("#filtrering").innerHTML += `<button class="filter" data-kursus="${niveau.id}">${niveau.name}</button>`
 				
 				
 			})
 			temaer.forEach(tema =>{
 				console.log("temaknap")
 				//lav en funktion der opretter knapper med kategori id som data attribut
-				document.querySelector("#tema-filtrering").innerHTML += `<button class="filter" data-tema="${tema.name}">${tema.name}</button>`
+				document.querySelector("#tema-filtrering").innerHTML += `<button class="filter" data-tema="${tema.id}">${tema.name}</button>`
 				
 				
 			})
