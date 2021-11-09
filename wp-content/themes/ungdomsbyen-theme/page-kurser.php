@@ -145,14 +145,14 @@ get_header();
 			visKurser();
 		}
 		function filtreringTema(){
-			filterTema = this.dataset.kursus;
+			filterTema = this.dataset.tema;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#tema-filtrering .filter").forEach(elm => {
 				elm.classList.remove("valgt");
 			})
 			//tilføjer .valgt til den valgte
 			this.classList.add("valgt");
-			console.log("filtreringTema");
+			console.log(filterTema);
 			visKurser();
 		}
 
@@ -164,7 +164,7 @@ get_header();
 			liste.textContent = "";
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
-				console.log("temaer");
+				console.log(temaer);
 				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterTema)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
