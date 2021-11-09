@@ -21,7 +21,6 @@ get_header();
 				<p class="kortbeskrivelse"></p>
 				<button class="detaljer">Læs mere</button>
 				
-				
 			</article>
 		</template>
 
@@ -40,7 +39,7 @@ get_header();
 				
 			</nav>
 			 <nav id="tema-filtrering">
-				 <h4>Tema:</h4>
+				 <h4>Temaer:</h4>
 				<button data-tema="alle">Alle</button>
 			</nav>
 
