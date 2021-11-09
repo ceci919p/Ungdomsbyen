@@ -112,20 +112,21 @@ get_header();
 				//lav en funktion der opretter knapper med kategori id som data attribut
 				document.querySelector("#tema-filtrering").innerHTML += `<button class="filter" data-tema="${tema.id}">${tema.name}</button>`
 				
-				console.log("temaknap")
+				console.log("temaknap");
 			})
 			addEventListenersToButtons();
 		}
 
 		function addEventListenersToButtons(){
+			console.log("addEventListenerToButtons")
 			//vælg alle filtreringsknapper og for hvert element skal der tilføjes en EventListener.
-			document.querySelectorAll("#filtrering button").forEach(elm =>{
+			document.querySelectorAll("#filtrering button").forEach(elm => {
 				elm.addEventListener("click", filtrering);
 			})
 			document.querySelectorAll("#tema-filtrering button").forEach(elm => {
 				elm.addEventListener("click", filtreringTema)
 			})
-			console.log("addEventListenerToButtons")
+			
 		}
 		//funktion til filtrering
 		function filtrering(){
@@ -144,8 +145,7 @@ get_header();
 			visKurser();
 		}
 		function filtreringTema(){
-			filterTema = this.dataset.tema;
-			document.querySelector("h1").textContent = this.textContent;
+			filterTema = this.dataset.kursus;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#tema-filtrering .filter").forEach(elm => {
 				elm.classList.remove("valgt");
@@ -164,7 +164,7 @@ get_header();
 			liste.textContent = "";
 			kurser.forEach(kursus => {
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
-				console.log(temaer);
+				console.log("temaer");
 				if ((filterKursus == "alle" || kursus.niveau.includes(parseInt(filterKursus))) && (filterTema == "alle" || kursus.tema.includes(parseInt(filterTema)))) {
 				const klon = skabelon.cloneNode(true).content;
 				klon.querySelector("h2").textContent = kursus.title.rendered;
