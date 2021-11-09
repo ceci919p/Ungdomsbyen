@@ -1,6 +1,63 @@
+img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+main > section {
+  grid-column: 2/3;
+}
+
+main > article {
+  grid-column: 2/3;
+}
+
+.page-header {
+  grid-column: 2/3;
+}
+
+#filtrering {
+  grid-column: 2/3;
+  margin-bottom: 4rem;
+}
+
+#filtrering h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#overskrift {
+  grid-column: 2/3;
+}
+
+.site-main {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1200px) auto;
+  align-items: center;
+}
+
 #kursus-oversigt {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+#kursus-oversigt article {
+  /*display: flex;
+  flex-wrap: wrap; */
+  align-content: space-between;
+  margin: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#kursus-oversigt article h2 {
+  font-size: 1.2em;
+
+  padding-block: 1rem;
+}
+
+#kursus-oversigt article p {
+  line-height: 1.2;
 }
 
 body {
@@ -9,4 +66,21 @@ body {
 
 article {
   background-color: #f9d2da;
+}
+
+button {
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  margin-block: 1rem;
+  margin-inline: 0.5rem;
+  padding: 5px;
+  padding-inline: 1rem;
+}
+
+button:hover {
+  background-color: #e8869b;
+  border: 1px solid black;
+  color: black;
 }

@@ -19,6 +19,7 @@ get_header();
 				<p class="malgruppe"></p>
                 <p class="fag"></p>
 				<p class="kortbeskrivelse"></p>
+				<button class="detaljer">Læs mere</button>
 				
 				
 			</article>
@@ -32,7 +33,13 @@ get_header();
 				<button data-tema="alle">Alle</button>
 			</nav>
 			<nav id="filtrering">
+				<h4>Filtreringsmuligheder</h4>
+				
 				<button data-kursus="alle">Alle</button>
+
+				<!--<h5 class="niveau-overskrift">niveau</h5>-->
+				<!--<h5 class="tema-overskrift">tema</h5>-->
+				
 			</nav>
 
 			<h1 id="overskrift">Kurser</h1>
@@ -160,8 +167,9 @@ get_header();
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
               		kursus.kort_beskriv;
-				klon.querySelector("article").addEventListener("click", () => {
+				klon.querySelector(".detaljer").addEventListener("click", () => {
 					location.href = kursus.link; })
+				
 				// kurser.malgrupper.forEach(malgruppe => {
 				// 	klon.querySelector("malgruppeliste").innerHTML += "<li>" + malgruppe + "</li>"
 				// })	
