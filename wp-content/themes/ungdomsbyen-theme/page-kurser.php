@@ -136,10 +136,10 @@ get_header();
 			filterKursus = this.dataset.kursus;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#filtrering .filter").forEach(elm => {
-				// elm.classList.remove("valgt");
+				elm.classList.remove("valgt");
 			});
 			//tilføjer .valgt til den valgte 
-			// this.classList.add("valgt");
+			this.classList.add("valgt");
 			console.log("filtrering");
 
 			visKurser();
@@ -148,10 +148,10 @@ get_header();
 			filterTema = this.dataset.tema;
 			//fjerner .valgt fra alle
 			document.querySelectorAll("#tema-filtrering .filter").forEach(elm => {
-				// elm.classList.remove("valgt");
+				elm.classList.remove("valgt");
 			})
 			//tilføjer .valgt til den valgte
-			// this.classList.add("valgt");
+			this.classList.add("valgt");
 			console.log(filterTema);
 			visKurser();
 		}
