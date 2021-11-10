@@ -16,10 +16,12 @@ get_header();
 				
 				<img src="" alt="">
 				<h2></h2>
+				<hr>
 				<p class="malgruppe"></p>
                 <p class="fag"></p>
+				<hr>
 				<p class="kortbeskrivelse"></p>
-				<button class="detaljer">Læs mere</button>x½
+				<button class="detaljer">Læs mere</button>
 				
 			</article>
 		</template>
