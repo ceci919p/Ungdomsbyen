@@ -28,7 +28,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<h1 id="overskrift">Kurser</h1>
+			<h1 id="overskrift">Alle vores kurser og workshops</h1>
 			<p id="seo_tekst">Find et kursus eller workshop her. Vi sætter fokus på alt fra LGBT og normer, valg af uddannelse, FN’s 17 verdensmål, økonomi, demokrati og medborgerskab, konflikthåndtering mm. Kurserne findes både til elever i folkeskole, grundskole, ungdomsuddannelse samt til kommunen og undervisere og ledere. Vi ligger placeret på Nørrebro i København, men kører ud til hele landet. Vi tilbyder også online kurser. </p>
 			
 			 <!--filtreringsknap med data attribut-->
