@@ -29,6 +29,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<h1 id="overskrift">Kurser</h1>
+			<p id="seo_tekst">test</p>
 			
 			 <!--filtreringsknap med data attribut-->
 			

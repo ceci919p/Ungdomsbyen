@@ -35,6 +35,10 @@ main > article {
   grid-column: 2/3;
 }
 
+#seo_tekst {
+  grid-column: 2/3;
+}
+
 .site-main {
   display: grid;
   grid-template-columns: auto minmax(0, 1200px) auto;
