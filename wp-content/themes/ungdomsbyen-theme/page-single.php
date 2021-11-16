@@ -57,9 +57,11 @@ get_header();
 		</main><!-- #main -->
 		
 		<script>
+			 const urlParams = new URLSearchParams(window.location.search);
+  			const id = urlParams.get("id");
 			let kursus;
 
-			const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus/"+<?php echo get_the_ID() ?>;
+			const url = "http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/wp-json/wp/v2/kursus/"+id;
 
 			async function getJson() {
 			const data = await fetch(url);

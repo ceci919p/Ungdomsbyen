@@ -165,8 +165,10 @@ get_header();
 				klon.querySelector("img").src = kursus.billede.guid;
 				klon.querySelector(".kortbeskrivelse").textContent =
               		kursus.kort_beskriv;
-				klon.querySelector(".detaljer").addEventListener("click", () => {
-					location.href = kursus.link; })
+				// klon.querySelector(".detaljer").addEventListener("click", () => {
+				// 	location.href = kursus.link; })
+					klon.querySelector(".detaljer").addEventListener("click", () => {
+					location.href = `http://ceciliejasmin.dk/kea/09_cms/ungdomsbyen/wordpress/single?id=${kursus.id}`; })
 				liste.appendChild(klon);
 
 				}
