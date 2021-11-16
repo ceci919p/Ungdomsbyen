@@ -1,18 +1,17 @@
 <?php
 /**
- * Author:          Andrei Baicus <andrei@themeisle.com>
- * Created on:      28/08/2018
+ * Template Name: Page Builder Full Width (Neve)
+ *
+ * The template for the page builder full-width.
+ *
+ * It contains header, footer and 100% content width.
  *
  * @package Neve
  */
-
-$container_class = apply_filters( 'neve_container_class_filter', 'container', 'single-post' );
-
+//OBS. dette er en page.php side	
 get_header();
-
 ?>
-	
-	<div id="primary" class="content-area">
+       	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
 			<article id="single_article">
@@ -85,7 +84,8 @@ get_header();
 		getJson ();
 
 		</script>
-	
+		
 	</div><!-- #primary -->
+
 <?php
 get_footer();
