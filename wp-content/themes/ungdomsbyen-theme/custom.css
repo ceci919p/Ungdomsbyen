@@ -119,6 +119,9 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+#submit_button {
+  margin-top: 20px;
+}
 .kontakt_info {
   padding: 1rem;
 }

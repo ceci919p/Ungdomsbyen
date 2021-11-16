@@ -59,7 +59,7 @@ get_header();
   								<input type="text" id="lname" name="lname"><br>
 								<label for="email">Email:</label><br>
   								<input type="text" id="email" name="email"><br>
-								<input type="submit" id="submit_button" name="submit_button"> <br>
+								<input type="submit" id="submit_button" name="submit_button"><br>
 							</form> 
 					</div>
 
