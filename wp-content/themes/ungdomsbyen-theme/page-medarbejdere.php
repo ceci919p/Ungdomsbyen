@@ -16,6 +16,7 @@ get_header();
 				<h2></h2>
 				<img src="" alt="">
 				<h3 class="titel"></h3>
+				<h4>Informationer:</h4>
 				<p class="email"></p>
                 <p class="telefon"></p>
 				<p class="kurser"></p>
@@ -72,12 +73,13 @@ get_header();
 				//Hvis arrayet viser tal skal filterKursus også skal laves om til tal. Dette gøres med parseInt() - så det ville hedde (parseInt(filterRet)). I mit tilfælde havde jeg tekst og derfor skulle filterRet forblive tekst.
 				console.log(medarbejdere);
 				const klon = skabelon.cloneNode(true).content;
-				klon.querySelector("h2").textContent = medarbejder.title.rendered;
+				klon.querySelector("h2").textContent = medarbejder.navn;
 				klon.querySelector(".titel").innerHTML = medarbejder.titel;
 				klon.querySelector(".email").innerHTML = medarbejder.email;
 				klon.querySelector(".telefon").innerHTML = medarbejder.telefon;
 				klon.querySelector(".kurser").innerHTML = medarbejder.kurser;
 				klon.querySelector("img").src = medarbejder.billede.guid;
+				liste.appendChild(klon);
 			})
 
 		}

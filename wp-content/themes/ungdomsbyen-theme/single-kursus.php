@@ -38,31 +38,18 @@ get_header();
 					<p>Indhold</p>
 					<p>Pris</p>
 				    </div>
-					<div class="text_box">
-					<h3>Test 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui.. </p>
-				    </div>
+				
 
 				</section>
 
-				<section class="single_container3">
-					<div class="text_box3">
-					<h3>Test 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui.. </p>
-                    </div>
+				
 
 				</section>
 
 				<section class="single_container4">
-					<div class="text_box4">
-						<h3>Test 4</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui..</p>
-
 					</div>
 					<div class="kontakt_info">
 						<h3>Har du spørgsmål til kurset?</h3>
-						
-
 					</div>
 
 				</section>
@@ -86,7 +73,7 @@ get_header();
 		function visKursus () {
 			document.querySelector("h2").textContent = kursus.title.rendered;
 			document.querySelector(".pic").src = kursus.billede.guid;
-			document.querySelector(".langbeskrivelse").textContent = kursus.beskrivelse;
+			document.querySelector(".langbeskrivelse").innerHTML = kursus.beskrivelse;
 			document.querySelector(".pris").innerHTML = kursus.pris + " kr";
 		}
 

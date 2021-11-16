@@ -52,11 +52,11 @@ main > article {
   margin: 0.5rem;
   padding: 1rem;
   cursor: pointer;
+  background-color: #f9d2da;
 }
 
 #kursus-oversigt article h2 {
   font-size: 1.2em;
-
   padding-block: 1rem;
 }
 
@@ -66,10 +66,6 @@ main > article {
 
 body {
   color: black;
-}
-
-article {
-  background-color: #f9d2da;
 }
 
 button {
@@ -108,35 +104,33 @@ button:hover {
   padding: 1rem;
 }
 
-.single_container2 .text_box {
-  background-color: #c3a9d5;
-  margin: 0.5rem;
-  padding: 1rem;
-}
-
-.single_container3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.single_container3 .text_box3 {
-  grid-column: 1/2;
-  background-color: #c3a9d5;
-  margin: 0.5rem;
-  padding: 1rem;
-}
-
 .single_container4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.single_container4 .text_box4 {
-  background-color: #c3a9d5;
-  margin: 0.5rem;
+.kontakt_info {
   padding: 1rem;
 }
 
-.kontakt_info {
+/***** medarbejder siden***/
+
+#medarbejder-oversigt {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+#medarbejder-oversigt article {
+  /*display: flex;
+  flex-wrap: wrap; */
+  align-content: space-between;
+  margin: 0.5rem;
   padding: 1rem;
+  cursor: pointer;
+  background-color: #ffc7a8;
+}
+
+#medarbejder-oversigt article h2 {
+  font-size: 1.2em;
+  padding-block: 1rem;
 }
