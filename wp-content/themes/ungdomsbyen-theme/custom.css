@@ -40,6 +40,8 @@ main > article {
   align-items: center;
 }
 
+/****kurser***/
+
 #kursus-oversigt {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -68,6 +70,8 @@ body {
   color: black;
 }
 
+/****filtreringsknap****/
+
 button {
   border-radius: 0;
   background-color: white;
@@ -88,6 +92,8 @@ button:hover {
 .valgt {
   background-color: #e8869b;
 }
+
+/***singleview****/
 
 #single_article {
   background-color: white;
@@ -131,6 +137,13 @@ button:hover {
 }
 
 #medarbejder-oversigt article h2 {
+  font-size: 1.5em;
+}
+
+#medarbejder-oversigt article h3 {
   font-size: 1.2em;
-  padding-block: 1rem;
+}
+
+#medarbejder-oversigt article h4 {
+  font-size: 1em;
 }
