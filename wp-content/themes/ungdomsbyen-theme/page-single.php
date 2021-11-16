@@ -52,6 +52,22 @@ get_header();
 					</div>
 
 				</section>
+					<section class="single_container5">
+					</div>
+					<div class="kontakt_info">
+						<h3>Tilmeld dig dette kursus her:</h3>
+							 <form>
+  								<label for="fname">Fornavn:</label><br>
+  								<input type="text" id="fname" name="fname"><br>
+  								<label for="lname">Efternavn:</label><br>
+  								<input type="text" id="lname" name="lname">
+								<label for="email">Email:</label><br>
+  								<input type="text" id="email" name="email">
+								<input type="submit" id="submit_button" name="submit_button">
+							</form> 
+					</div>
+
+				</section>
 			</article>
 
 		</main><!-- #main -->
