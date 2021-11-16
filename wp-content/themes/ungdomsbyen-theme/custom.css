@@ -31,6 +31,7 @@ main > article {
 }
 
 #overskrift {
+  margin-top: 30px;
   grid-column: 2/3;
 }
 
@@ -121,6 +122,10 @@ button:hover {
 
 /***** medarbejder siden***/
 
+#underoverskrift {
+  grid-column: 2/3;
+}
+
 #medarbejder-oversigt {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -138,12 +143,15 @@ button:hover {
 
 #medarbejder-oversigt article h2 {
   font-size: 1.5em;
+  margin-top: 20px;
 }
 
 #medarbejder-oversigt article h3 {
   font-size: 1.2em;
+  margin-top: 20px;
 }
 
 #medarbejder-oversigt article h4 {
   font-size: 1em;
+  margin-top: 20px;
 }

@@ -27,6 +27,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<h1 id="overskrift">Medarbejdere</h1>
+			<p id="underoverskrift">Ungdomsbyen består af et stærkt hold af både nye og erfarne kræfter. Vi hylder mangfoldighed uanset alder, køn, race, etnicitet, seksuel orientering, funktionsvariationer, m.m.</p>
 			
 			 <!--filtreringsknap med data attribut-->
 			<section id="medarbejder-oversigt"></section>
