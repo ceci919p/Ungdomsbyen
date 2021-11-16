@@ -37,33 +37,29 @@ get_header();
 					<p>Indhold</p>
 					<p>Pris</p>
 				    </div>
-				
-
 				</section>
 
 				
 
-				</section>
+				
 
-				<section class="single_container4">
-					</div>
+				<section class="single_container3">
 					<div class="kontakt_info">
 						<h3>Har du spørgsmål til kurset?</h3>
 					</div>
-
 				</section>
-					<section class="single_container5">
-					</div>
+
+					<section class="single_container4">
 					<div class="kontakt_info">
 						<h3>Tilmeld dig dette kursus her:</h3>
 							 <form>
   								<label for="fname">Fornavn:</label><br>
   								<input type="text" id="fname" name="fname"><br>
   								<label for="lname">Efternavn:</label><br>
-  								<input type="text" id="lname" name="lname">
+  								<input type="text" id="lname" name="lname"><br>
 								<label for="email">Email:</label><br>
-  								<input type="text" id="email" name="email">
-								<input type="submit" id="submit_button" name="submit_button">
+  								<input type="text" id="email" name="email"><br>
+								<input type="submit" id="submit_button" name="submit_button"> <br>
 							</form> 
 					</div>
 

@@ -111,11 +111,14 @@ button:hover {
   padding: 1rem;
 }
 
+.single_container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .single_container4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .kontakt_info {
   padding: 1rem;
 }
