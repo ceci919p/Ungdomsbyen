@@ -44,7 +44,7 @@ get_header();
 
 					<section class="single_container4">
 						<div class="kontakt_info">
-						<h3>Tilmeld dig dette kursus her:</h3>
+							<h3>Tilmeld dig dette kursus her:</h3>
 							 <form class="booking">
 								 <div class="first_form">
 									 <label for="fname">Fornavn:</label><br>
@@ -62,8 +62,8 @@ get_header();
 									<label for="date">Dato for workshop:</label><br>
   									<input type="date" id="date" name="date"><br>
 								</div>
-								<input type="submit" id="submit_button" name="submit_button"><br>
 							</form> 
+							<input type="submit" id="submit_button" name="submit_button"><br>
 					</div>
 				</section>
 
