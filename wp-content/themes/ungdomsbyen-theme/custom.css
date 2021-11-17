@@ -165,3 +165,6 @@ button:hover {
   font-size: 1em;
   margin-top: 20px;
 }
+.builder-item--primary-menu a hover {
+  color: #4eada8;
+}

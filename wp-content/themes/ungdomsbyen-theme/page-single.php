@@ -15,16 +15,15 @@ get_header();
 		<main id="main" class="site-main">
 
 			<article id="single_article">
-				<button class="luk">Tilbage</button>
-				<section class="single_container">
-							<h1></h1>
-				<img class="pic" src="" alt="">
 
-				<div class="single_text">
-					<!-- <h2></h2> -->
-				<p class="langbeskrivelse"></p>
-				<!-- <p class="pris"></p> -->
-			    </div>
+				<button class="luk">Tilbage</button>
+
+				<section class="single_container">
+					<h1 class="h1"></h1>
+					<img class="pic" src="" alt="">
+					<div class="single_text">
+					<p class="langbeskrivelse"></p>
+			    	</div>
 			    </section>
 
 				<section class="single_container2">
@@ -33,13 +32,9 @@ get_header();
 					<p>Klassetrin:</p>
 					<p>Antal deltagere:</p>
 					<p>Varighed:</p>
-					<p class="pris">Pris:</p>
+					<p class="pris"></p>
 				    </div>
 				</section>
-
-				
-
-				
 
 				<section class="single_container3">
 					<div class="kontakt_info">
@@ -48,7 +43,7 @@ get_header();
 				</section>
 
 					<section class="single_container4">
-					<div class="kontakt_info">
+						<div class="kontakt_info">
 						<h3>Tilmeld dig dette kursus her:</h3>
 							 <form>
   								<label for="fname">Fornavn:</label><br>
@@ -60,14 +55,14 @@ get_header();
 								<input type="submit" id="submit_button" name="submit_button"><br>
 							</form> 
 					</div>
-
 				</section>
+
 			</article>
 
 		</main><!-- #main -->
 		
 		<script>
-			 const urlParams = new URLSearchParams(window.location.search);
+			const urlParams = new URLSearchParams(window.location.search);
   			const id = urlParams.get("id");
 			let kursus;
 
@@ -82,10 +77,10 @@ get_header();
 
 		//vis data om kurset
 		function visKursus () {
-			document.querySelector("h1").textContent = kursus.title.rendered;
+			document.querySelector(".h1").textContent = kursus.title.rendered;
 			document.querySelector(".pic").src = kursus.billede.guid;
 			document.querySelector(".langbeskrivelse").innerHTML = kursus.beskrivelse;
-			document.querySelector(".pris").innerHTML = kursus.pris + " kr";
+			document.querySelector(".pris").innerHTML = "Pris: " + kursus.pris + " kr";
 		}
 
 		document.querySelector(".luk").addEventListener("click", () => {
