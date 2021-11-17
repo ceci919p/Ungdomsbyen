@@ -49,6 +49,8 @@ get_header();
 			    	</div>
 			
 						<div class="kontakt_info">
+							<div class="kontakt_info_wrapper">
+								<div class="kontakt_input">
 							<h3>Tilmeld dig dette kursus her:</h3>
 							 <form class="booking">
 								 <div class="first_form">
@@ -69,6 +71,8 @@ get_header();
 								</div>
 							</form> 
 							<input type="submit" id="submit_button" name="submit_button"><br>
+						</div>
+						</div>
 					</div>
 
 

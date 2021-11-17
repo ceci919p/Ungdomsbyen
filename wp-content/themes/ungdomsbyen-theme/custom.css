@@ -200,20 +200,21 @@ button:hover {
   }
 
   .single_wrapper .info_box {
-    margin-inline: auto;
+    margin-left: 1rem;
     min-width: 500px;
     margin-top: 0;
+    padding-block: 2.5rem;
   }
 
   .single_container2 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
     margin-block: 2rem;
     gap: 20px;
   }
 
   .single_text {
     grid-column: 2/3;
+    grid-row: 1;
   }
   .single_container3 {
     display: grid;
@@ -222,13 +223,22 @@ button:hover {
 
   .kontakt_info {
     padding: 1rem;
-    margin-inline: auto;
-    margin-block: auto;
-    grid-column: 1/2;
-    grid-row: 1;
+    grid-column: 1/4;
+    grid-row: 2;
     max-height: 500px;
     text-align: inherit;
   }
+
+  .kontakt_info_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .kontakt_input {
+    grid-column: 2/3;
+    padding: 1rem;
+  }
+
   .booking {
     display: grid;
     grid-template-columns: 1fr 1fr;
