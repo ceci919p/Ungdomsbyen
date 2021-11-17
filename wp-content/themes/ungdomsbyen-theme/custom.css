@@ -176,7 +176,7 @@ button:hover {
   font-size: 1em;
   margin-top: 20px;
 }
-.builder-item--primary-menu a hover {
+.builder-item--primary-menu {
   --hoverColor: #4eada8;
   --activeColor: #4eada8;
 }
