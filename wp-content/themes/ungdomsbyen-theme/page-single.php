@@ -29,9 +29,8 @@ get_header();
 
 					<div class="info_box">
 				    <h4>Praktiske informationer</h4>
-					<p>Klassetrin:</p>
-					<p>Antal deltagere:</p>
-					<p>Varighed:</p>
+					<p class="malgruppe"></p>
+					<p class="fag"></p>
 					<p class="pris"></p>
 				    </div>
 
@@ -102,6 +101,8 @@ get_header();
 			document.querySelector(".pic").src = kursus.billede.guid;
 			document.querySelector(".langbeskrivelse").innerHTML = kursus.beskrivelse;
 			document.querySelector(".pris").innerHTML = "Pris: " + kursus.pris + " kr.";
+			document.querySelector(".malgruppe").innerHTML = "Målgruppe: " + kursus.malgrupper;
+			ocument.querySelector(".fag").innerHTML = "Fag: " + kursus.fag;
 		}
 
 		document.querySelector(".luk").addEventListener("click", () => {
