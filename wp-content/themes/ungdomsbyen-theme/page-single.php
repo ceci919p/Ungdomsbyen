@@ -17,7 +17,7 @@ get_header();
 			<article id="single_article">
 				<button class="luk">Tilbage</button>
 				<section class="single_container">
-							<h2></h2>
+							<h1></h1>
 				<img class="pic" src="" alt="">
 
 				<div class="single_text">
@@ -82,7 +82,7 @@ get_header();
 
 		//vis data om kurset
 		function visKursus () {
-			document.querySelector("h2").textContent = kursus.title.rendered;
+			document.querySelector("h1").textContent = kursus.title.rendered;
 			document.querySelector(".pic").src = kursus.billede.guid;
 			document.querySelector(".langbeskrivelse").innerHTML = kursus.beskrivelse;
 			document.querySelector(".pris").innerHTML = kursus.pris + " kr";
