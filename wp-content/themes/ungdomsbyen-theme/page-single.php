@@ -102,7 +102,7 @@ get_header();
 			document.querySelector(".langbeskrivelse").innerHTML = kursus.beskrivelse;
 			document.querySelector(".pris").innerHTML = "Pris: " + kursus.pris + " kr.";
 			document.querySelector(".malgruppe").innerHTML = "Målgruppe: " + kursus.malgrupper;
-			ocument.querySelector(".fag").innerHTML = "Fag: " + kursus.fag;
+			document.querySelector(".fag").innerHTML = "Fag: " + kursus.fag;
 		}
 
 		document.querySelector(".luk").addEventListener("click", () => {
