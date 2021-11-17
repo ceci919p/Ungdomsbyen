@@ -20,13 +20,13 @@ get_header();
 
 				<section class="single_container">
 					<h1 class="h1"></h1>
-					<img class="pic" src="" alt="">
-					<div class="single_text">
-					<p class="langbeskrivelse"></p>
-			    	</div>
-			    </section>
 
-				<section class="single_container2">
+					<div class="single_wrapper">
+
+					<div class="single_forside_billede">
+					<img class="pic" src="" alt="">
+				    </div> 
+
 					<div class="info_box">
 				    <h4>Praktiske informationer</h4>
 					<p>Klassetrin:</p>
@@ -34,15 +34,20 @@ get_header();
 					<p>Varighed:</p>
 					<p class="pris"></p>
 				    </div>
-				</section>
 
-				<section class="single_container3">
-					<div class="kontakt_info">
-						<h3>Har du spørgsmål til kurset?</h3>
-					</div>
-				</section>
+				    </div>
+					
+			    </section>
 
-					<section class="single_container4">
+				
+
+				<section class="single_container2">
+
+				
+						<div class="single_text">
+					<p class="langbeskrivelse"></p>
+			    	</div>
+			
 						<div class="kontakt_info">
 							<h3>Tilmeld dig dette kursus her:</h3>
 							 <form class="booking">
@@ -65,6 +70,8 @@ get_header();
 							</form> 
 							<input type="submit" id="submit_button" name="submit_button"><br>
 					</div>
+
+
 				</section>
 
 			</article>

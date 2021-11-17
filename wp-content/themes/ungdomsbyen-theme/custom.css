@@ -59,7 +59,7 @@ main > article {
   margin: 0.5rem;
   padding: 1rem;
   cursor: pointer;
-  background-color: #4eada8;
+  background-color: #bff6f7;
 }
 
 #kursus-oversigt article h2 {
@@ -80,7 +80,7 @@ body {
 button {
   border-radius: 0;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid #b3b3b3;
   color: black;
   margin-block: 1rem;
   margin-inline: 0.5rem;
@@ -90,55 +90,65 @@ button {
 
 button:hover {
   background-color: #4eada8;
-  border: 1px solid black;
+  /*border: 1px solid #b3b3b3;*/
   color: black;
 }
 
 .valgt {
   background-color: #4eada8;
+  border: none;
 }
 
-/***singleview****/
+.detaljer {
+  background-color: white;
+  border: none;
+}
+
+.detaljer:hover {
+  background-color: #4eada8;
+  border: none;
+}
+
+/****singleview mobil***/
+
+.single_wrapper .info_box {
+  background-color: #edd2ff;
+  margin-block: 1rem;
+
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
 
 #single_article {
   background-color: white;
+  padding-inline: 1rem;
+  padding-block: 2rem;
 }
 
-.single_container2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.luk:hover {
+  border: none;
+  background-color: #c3a9d5;
 }
 
-.single_container2 .info_box {
-  background-color: lightgrey;
-  margin: 0.5rem;
-  padding: 1rem;
+.langbeskrivelse h3 h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.single_container3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.single_container4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.kontakt_info #submit_button {
-  margin-top: 20px;
-}
+/***singleview kontaktformular mobil***/
+
 .kontakt_info {
-  padding: 1rem;
+  background-color: #edd2ff;
+
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  text-align: center;
 }
-.booking {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-}
-.first_form {
-  grid-column: 1/2;
-}
-.second_form {
-  grid-column: 2/3;
+
+#submit_button {
+  margin-top: 20px;
+  border-radius: 0;
+  background-color: #bd79ea;
 }
 
 /***** medarbejder siden***/
@@ -179,4 +189,56 @@ button:hover {
 .builder-item--primary-menu {
   --hoverColor: #4eada8;
   --activeColor: #4eada8;
+}
+
+/***singleview web version****/
+
+@media (min-width: 700px) {
+  .single_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .single_wrapper .info_box {
+    margin-inline: auto;
+    min-width: 500px;
+    margin-top: 0;
+  }
+
+  .single_container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-block: 2rem;
+    gap: 20px;
+  }
+
+  .single_text {
+    grid-column: 2/3;
+  }
+  .single_container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .kontakt_info {
+    padding: 1rem;
+    margin-inline: auto;
+    margin-block: auto;
+    grid-column: 1/2;
+    grid-row: 1;
+    max-height: 500px;
+    text-align: inherit;
+  }
+  .booking {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+  .first_form {
+    grid-column: 1/2;
+  }
+  .second_form {
+    grid-column: 2/3;
+  }
 }
