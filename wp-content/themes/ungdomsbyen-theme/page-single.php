@@ -45,13 +45,23 @@ get_header();
 					<section class="single_container4">
 						<div class="kontakt_info">
 						<h3>Tilmeld dig dette kursus her:</h3>
-							 <form>
-  								<label for="fname">Fornavn:</label><br>
-  								<input type="text" id="fname" name="fname"><br>
-  								<label for="lname">Efternavn:</label><br>
-  								<input type="text" id="lname" name="lname"><br>
-								<label for="email">Email:</label><br>
-  								<input type="text" id="email" name="email"><br>
+							 <form class="booking">
+								 <div class="first_form">
+									 <label for="fname">Fornavn:</label><br>
+  									<input type="text" id="fname" name="fname"><br>
+  									<label for="lname">Efternavn:</label><br>
+  									<input type="text" id="lname" name="lname"><br>
+									<label for="email">Email:</label><br>
+  									<input type="text" id="email" name="email"><br>
+								</div>
+  								<div class="second_form">
+									<label for="tel">Telefon-nr:</label><br>
+  									<input type="tel" id="tel" name="tel"><br>
+  									<label for="malgruppe">Klassetrin eller målgruppe:</label><br>
+  									<input type="text" id="malgruppe" name="malgruppe"><br>
+									<label for="date">Dato for workshop:</label><br>
+  									<input type="date" id="date" name="date"><br>
+								</div>
 								<input type="submit" id="submit_button" name="submit_button"><br>
 							</form> 
 					</div>
@@ -80,7 +90,7 @@ get_header();
 			document.querySelector(".h1").textContent = kursus.title.rendered;
 			document.querySelector(".pic").src = kursus.billede.guid;
 			document.querySelector(".langbeskrivelse").innerHTML = kursus.beskrivelse;
-			document.querySelector(".pris").innerHTML = "Pris: " + kursus.pris + " kr";
+			document.querySelector(".pris").innerHTML = "Pris: " + kursus.pris + " kr.";
 		}
 
 		document.querySelector(".luk").addEventListener("click", () => {

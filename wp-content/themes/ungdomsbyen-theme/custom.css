@@ -129,6 +129,17 @@ button:hover {
 .kontakt_info {
   padding: 1rem;
 }
+.booking {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.first_form {
+  grid-area: 1;
+}
+.second_form {
+  grid-area: 2;
+}
 
 /***** medarbejder siden***/
 
@@ -166,5 +177,6 @@ button:hover {
   margin-top: 20px;
 }
 .builder-item--primary-menu a hover {
-  color: #4eada8;
+  --hoverColor: #4eada8;
+  --activeColor: #4eada8;
 }
