@@ -21,7 +21,7 @@ get_header();
 				<img class="pic" src="" alt="">
 
 				<div class="single_text">
-					<h2></h2>
+					<!-- <h2></h2> -->
 				<p class="langbeskrivelse"></p>
 				<!-- <p class="pris"></p> -->
 			    </div>
