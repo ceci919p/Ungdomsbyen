@@ -59,7 +59,7 @@ main > article {
   margin: 0.5rem;
   padding: 1rem;
   cursor: pointer;
-  background-color: #f9d2da;
+  background-color: #4eada8;
 }
 
 #kursus-oversigt article h2 {
@@ -89,13 +89,13 @@ button {
 }
 
 button:hover {
-  background-color: #e8869b;
+  background-color: #4eada8;
   border: 1px solid black;
   color: black;
 }
 
 .valgt {
-  background-color: #e8869b;
+  background-color: #4eada8;
 }
 
 /***singleview****/
