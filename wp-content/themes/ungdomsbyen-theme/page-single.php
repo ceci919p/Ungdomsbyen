@@ -18,24 +18,22 @@ get_header();
 				<button class="luk">Tilbage</button>
 				<section class="single_container">
 							<h2></h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nulla vel elit viverra pharetra sed et quam. Integer ipsum quam, bibendum at nibh eget, placerat hendrerit dui.. </p>
 				<img class="pic" src="" alt="">
 
 				<div class="single_text">
 					<h2></h2>
 				<p class="langbeskrivelse"></p>
-				<p class="pris"></p>
+				<!-- <p class="pris"></p> -->
 			    </div>
 			    </section>
 
 				<section class="single_container2">
 					<div class="info_box">
 				    <h4>Praktiske informationer</h4>
-					<p>Klassetrin</p>
-					<p>Deltagere</p>
-					<p>Varighed</p>
-					<p>Indhold</p>
-					<p>Pris</p>
+					<p>Klassetrin:</p>
+					<p>Antal deltagere:</p>
+					<p>Varighed:</p>
+					<p class="pris">Pris:</p>
 				    </div>
 				</section>
 
