@@ -53,8 +53,8 @@ main > article {
 }
 
 #kursus-oversigt article {
-  /*display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   align-content: space-between;
   margin: 0.5rem;
   padding: 1rem;

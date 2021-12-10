@@ -128,7 +128,7 @@ get_header();
 			//når vi vil have fat i data-attribut bruges dataset og efterfølgende hvad data-attributten hedder 
 			filterKursus = this.dataset.kursus;
 			//fjerner .valgt fra alle
-			document.querySelectorAll("#filtrering .filter").forEach(elm => {
+			document.querySelectorAll("#filtrering button").forEach(elm => {
 				elm.classList.remove("valgt");
 			});
 			//tilføjer .valgt til den valgte 
@@ -140,7 +140,7 @@ get_header();
 		function filtreringTema(){
 			filterTema = this.dataset.tema;
 			//fjerner .valgt fra alle
-			document.querySelectorAll("#tema-filtrering .filter").forEach(elm => {
+			document.querySelectorAll("#tema-filtrering button").forEach(elm => {
 				elm.classList.remove("valgt");
 			})
 			//tilføjer .valgt til den valgte
